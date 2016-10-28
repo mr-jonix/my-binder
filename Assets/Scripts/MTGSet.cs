@@ -79,4 +79,16 @@ public class MTGCard
     public List<int> variations;
     public string watermark;
 
+    public bool ContainsForeign(string foreignName)
+    {
+        foreach (ForeignCard f in foreignNames)
+        {
+            if (f.name.ToLower().Contains(foreignName))
+            {
+                return true;
+                
+            }
+        }
+        return false;
+    }
 }

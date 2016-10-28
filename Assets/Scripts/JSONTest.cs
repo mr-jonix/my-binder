@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System;
 
 public class JSONTest : MonoBehaviour {
 
@@ -13,12 +11,12 @@ public class JSONTest : MonoBehaviour {
         string json = jsonSource.text;
         MTGSet TestSet = JsonUtility.FromJson<MTGSet>(json);
         print(TestSet.name);
-        print(TestSet.translations.ru);
-        List<MTGCard> FilteredList = TestSet.cards.Where(x => x.types.Contains("Planeswalker")).ToList();
-        foreach(MTGCard card in FilteredList)
-        {
-            print(card.foreignNames[card.foreignNames.FindIndex(x => x.language =="Russian")].name + " at #"+card.number);
-        }
+        print(TestSet.translations.tw);
+        //List<MTGCard> FilteredList = CardSearch.SimpleSearch(TestSet.cards, "ab");
+        //foreach(MTGCard card in FilteredList)
+        //{
+        //    print(card.name);
+        //}
 	}
 	
 	// Update is called once per frame
