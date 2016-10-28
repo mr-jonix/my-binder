@@ -16,37 +16,6 @@ public static class CardSearch {
 
     public static List<MTGCard> AdvancedSearch(List<MTGCard> _cardCollection, CardFilter _filter)
     {
-
-        //var queryName = from card in _cardCollection
-        //                where card.name.ToLower().Contains(_filter.name.ToLower())
-        //                select card;
-        //var queryIsWhite = from card in _cardCollection
-        //                   where card.colors.Contains("white")
-        //                   select card;
-        //var queryIsBlue = from card in _cardCollection
-        //                  where card.colors.Contains("blue")
-        //                  select card;
-        //var queryIsBlack = from card in _cardCollection
-        //                   where card.colors.Contains("black")
-        //                   select card;
-        //var queryIsRed = from card in _cardCollection
-        //                   where card.colors.Contains("red")
-        //                   select card;
-        //var queryIsGreen = from card in _cardCollection
-        //                   where card.colors.Contains("green")
-        //                   select card;
-        //var queryIsColorless = from card in _cardCollection
-        //                       where card.colors.Count == 0
-        //                       select card;
-        //var queryIsMulticolored = from card in _cardCollection
-        //                          where card.colors.Count > 1
-        //                          select card;
-
-        //var finalQuery = CreateEmptyEnumerable(queryName);
-
-        ////Main construction of the query below
-
-        //if (_filter.name != string.Empty) 
         var finalQuery = from card in _cardCollection
                          where card.name.ToLower().Contains(_filter.name.ToLower()) || card.ContainsForeign(_filter.name.ToLower()) 
                          select card;

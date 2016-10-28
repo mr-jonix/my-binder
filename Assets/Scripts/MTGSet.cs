@@ -86,7 +86,6 @@ public class MTGCard
             if (f.name.ToLower().Contains(foreignName))
             {
                 return true;
-                
             }
         }
         return false;
