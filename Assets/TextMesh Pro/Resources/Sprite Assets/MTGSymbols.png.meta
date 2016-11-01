@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: ebc5809422392ac409a340f4fa4a2293
+timeCreated: 1477994717
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MTGSymbols_0
+    21300002: MTGSymbols_1
+    21300004: MTGSymbols_2
+    21300006: MTGSymbols_3
+    21300008: MTGSymbols_4
+    21300010: MTGSymbols_5
+    21300012: MTGSymbols_6
+    21300014: MTGSymbols_7
+    21300016: MTGSymbols_8
+    21300018: MTGSymbols_9
+    21300020: MTGSymbols_10
+    21300022: MTGSymbols_11
+    21300024: MTGSymbols_12
+    21300026: MTGSymbols_13
+    21300028: MTGSymbols_14
+    21300030: MTGSymbols_15
+    21300032: MTGSymbols_16
+    21300034: MTGSymbols_17
+    21300036: MTGSymbols_18
+    21300038: MTGSymbols_19
+    21300040: MTGSymbols_20
+    21300042: MTGSymbols_21
+    21300044: MTGSymbols_22
+    21300046: MTGSymbols_23
+    21300048: MTGSymbols_24
+    21300050: MTGSymbols_25
+    21300052: MTGSymbols_26
+    21300054: MTGSymbols_27
+    21300056: MTGSymbols_28
+    21300058: MTGSymbols_29
+    21300060: MTGSymbols_30
+    21300062: MTGSymbols_31
+    21300064: MTGSymbols_32
+    21300066: MTGSymbols_33
+    21300068: MTGSymbols_34
+    21300070: MTGSymbols_35
+    21300072: MTGSymbols_36
+    21300074: MTGSymbols_37
+    21300076: MTGSymbols_38
+    21300078: MTGSymbols_39
+    21300080: MTGSymbols_40
+    21300082: MTGSymbols_41
+    21300084: MTGSymbols_42
+    21300086: MTGSymbols_43
+    21300088: MTGSymbols_44
+    21300090: MTGSymbols_45
+    21300092: MTGSymbols_46
+    21300094: MTGSymbols_47
+    21300096: MTGSymbols_48
+    21300098: MTGSymbols_49
+    21300100: MTGSymbols_50
+    21300102: MTGSymbols_51
+    21300104: MTGSymbols_52
+    21300106: MTGSymbols_53
+    21300108: MTGSymbols_54
+    21300110: MTGSymbols_55
+    21300112: MTGSymbols_56
+    21300114: MTGSymbols_57
+    21300116: MTGSymbols_58
+    21300118: MTGSymbols_59
+    21300120: MTGSymbols_60
+    21300122: MTGSymbols_61
+    21300124: MTGSymbols_62
+    21300126: MTGSymbols_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MTGSymbols_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 558
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_7
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_8
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 558
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 465
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_17
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 465
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 372
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_26
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_27
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_28
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 372
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 279
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_34
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_36
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_37
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_38
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_39
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 279
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_41
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 186
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_42
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_43
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_44
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_45
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_46
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_47
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_48
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_49
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 186
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_51
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 93
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_52
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 93
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_53
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 93
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_54
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 93
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_55
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 93
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_56
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 93
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_58
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 167
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_59
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_60
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_61
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_62
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 0
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MTGSymbols_63
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 4
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

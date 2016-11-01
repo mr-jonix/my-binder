@@ -79,13 +79,26 @@ public class MTGCard
     public List<int> variations;
     public string watermark;
 
-    public bool ContainsForeign(string foreignName)
+    public bool ContainsForeign(string foreignName, bool onlyRussian)
     {
-        foreach (ForeignCard f in foreignNames)
+        if (onlyRussian)
         {
-            if (f.name.ToLower().Contains(foreignName))
+            foreach (ForeignCard f in foreignNames)
             {
-                return true;
+                if (f.name.ToLower().Contains(foreignName)&&f.language=="Russian")
+                {
+                    return true;
+                }
+            }
+        }
+        else
+        {
+            foreach (ForeignCard f in foreignNames)
+            {
+                if (f.name.ToLower().Contains(foreignName))
+                {
+                    return true;
+                }
             }
         }
         return false;

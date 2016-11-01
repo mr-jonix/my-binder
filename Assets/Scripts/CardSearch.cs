@@ -14,10 +14,10 @@ public static class CardSearch {
         return _cardCollection.Where(x => x.name.ToLower().Contains(_cardName.ToLower())).ToList();
     }
 
-    public static List<MTGCard> AdvancedSearch(List<MTGCard> _cardCollection, CardFilter _filter)
+    public static List<MTGCard> AdvancedSearch(List<MTGCard> _cardCollection, CardFilter _filter, bool onlyRussian)
     {
         var finalQuery = from card in _cardCollection
-                         where card.name.ToLower().Contains(_filter.name.ToLower()) || card.ContainsForeign(_filter.name.ToLower()) 
+                         where card.name.ToLower().Contains(_filter.name.ToLower()) || card.ContainsForeign(_filter.name.ToLower(), onlyRussian) 
                          select card;
         if (_filter.isWhite) finalQuery = finalQuery.Where(x => x.colors.Contains("White"));
         if (_filter.isBlue) finalQuery = finalQuery.Where(x => x.colors.Contains("Blue"));
