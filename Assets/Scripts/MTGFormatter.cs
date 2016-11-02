@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public static class MTGFormatter { 
+public static class MTGFormatter
+{
 
     public static string FormatManaCost(string inputString)
     {
         if (inputString == string.Empty) { return ""; }
-        else {
+        else
+        {
             string resultString = inputString;
-
+            // Generic mana symbols
             resultString = inputString.Replace("{0}", "<sprite=0>");
             resultString = resultString.Replace("{1}", "<sprite=1>");
             resultString = resultString.Replace("{2}", "<sprite=2>");
@@ -30,18 +32,19 @@ public static class MTGFormatter {
             resultString = resultString.Replace("{18}", "<sprite=18>");
             resultString = resultString.Replace("{19}", "<sprite=19>");
             resultString = resultString.Replace("{20}", "<sprite=20>");
-
+            // X, Y, Z symbols
             resultString = resultString.Replace("{X}", "<sprite=21>");
             resultString = resultString.Replace("{Y}", "<sprite=22>");
             resultString = resultString.Replace("{Z}", "<sprite=23>");
-
+            // Color mana symbols
             resultString = resultString.Replace("{W}", "<sprite=24>");
             resultString = resultString.Replace("{U}", "<sprite=25>");
             resultString = resultString.Replace("{B}", "<sprite=26>");
             resultString = resultString.Replace("{R}", "<sprite=27>");
             resultString = resultString.Replace("{G}", "<sprite=28>");
 
-            return resultString; }
+            return resultString;
+        }
     }
 
 

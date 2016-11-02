@@ -3,7 +3,8 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
-public class SimpleSearchField : MonoBehaviour {
+public class SimpleSearchField : MonoBehaviour
+{
 
     public SearchEngine _searchEngine;
     public InputField _inputField;
@@ -27,7 +28,7 @@ public class SimpleSearchField : MonoBehaviour {
 
     public void DoSearchAndUpdate()
     {
-        if (_searchEngine != null && _inputField != null && _text != null&&_mtgCardSet!=null)
+        if (_searchEngine != null && _inputField != null && _text != null && _mtgCardSet != null)
         {
             CardFilter myFilter = new CardFilter();
             myFilter.isWhite = _isWhite.isOn;

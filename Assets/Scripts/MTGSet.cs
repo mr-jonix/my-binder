@@ -28,7 +28,8 @@ public class ForeignCard
 }
 
 [Serializable]
-public class MTGSet {
+public class MTGSet
+{
     public string name;
     public string code;
     public string magicCardsInfoCode;
@@ -85,7 +86,7 @@ public class MTGCard
         {
             foreach (ForeignCard f in foreignNames)
             {
-                if (f.name.ToLower().Contains(foreignName)&&f.language=="Russian")
+                if (f.name.ToLower().Contains(foreignName) && f.language == "Russian")
                 {
                     return true;
                 }
