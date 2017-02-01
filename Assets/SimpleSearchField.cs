@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.Collections;
+using MyBinder;
 
 public class SimpleSearchField : MonoBehaviour
 {
@@ -18,6 +18,8 @@ public class SimpleSearchField : MonoBehaviour
     public Toggle _isGreen;
     public Toggle _isColorless;
     public Toggle _isMulticolored;
+    public Toggle _modeAnd;
+    public Toggle _modeOr;
 
     void Start()
     {
@@ -30,15 +32,19 @@ public class SimpleSearchField : MonoBehaviour
     {
         if (_searchEngine != null && _inputField != null && _text != null && _mtgCardSet != null)
         {
-            CardFilter myFilter = new CardFilter();
-            myFilter.isWhite = _isWhite.isOn;
-            myFilter.isBlue = _isBlue.isOn;
-            myFilter.isBlack = _isBlack.isOn;
-            myFilter.isRed = _isRed.isOn;
-            myFilter.isGreen = _isGreen.isOn;
-            myFilter.isColorless = _isColorless.isOn;
-            myFilter.isMulticolored = _isMulticolored.isOn;
-            myFilter.name = _inputField.text;
+            CardFilter myFilter = new CardFilter()
+            {
+                isWhite = _isWhite.isOn,
+                isBlue = _isBlue.isOn,
+                isBlack = _isBlack.isOn,
+                isRed = _isRed.isOn,
+                isGreen = _isGreen.isOn,
+                isColorless = _isColorless.isOn,
+                isMulticolored = _isMulticolored.isOn,
+                name = _inputField.text                
+            };
+            if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
+            if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;
             _searchEngine.SearchFooAdv(myFilter, _mtgCardSet.cards, _text);
         }
         else

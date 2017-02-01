@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using MyBinder;
 using TMPro;
 
 public class SearchEngine : MonoBehaviour
@@ -18,7 +19,7 @@ public class SearchEngine : MonoBehaviour
 
     public void SearchFooAdv(CardFilter filter, List<MTGCard> cardSetToSearch, TextMeshProUGUI textToUpdate)
     {
-        List<MTGCard> FilteredList = CardSearch.AdvancedSearch(cardSetToSearch, filter, true);
+        List<MTGCard> FilteredList = CardSearch.AdvancedSearchCP(cardSetToSearch, filter);
         textToUpdate.text = "total entries: " + FilteredList.Count + "\n";
         foreach (MTGCard card in FilteredList)
         {
