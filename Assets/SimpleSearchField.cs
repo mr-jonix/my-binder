@@ -10,7 +10,7 @@ public class SimpleSearchField : MonoBehaviour
     public InputField _inputField;
     public TextMeshProUGUI _text;
     public MTGSet _mtgCardSet;
-    public TextAsset jsonSource;
+    public TextAsset _jsonSource;
     public Toggle _isWhite;
     public Toggle _isBlue;
     public Toggle _isBlack;
@@ -23,7 +23,7 @@ public class SimpleSearchField : MonoBehaviour
 
     void Start()
     {
-        string json = jsonSource.text;
+        string json = _jsonSource.text;
         _mtgCardSet = JsonUtility.FromJson<MTGSet>(json);
         DoSearchAndUpdate();
     }
