@@ -42,6 +42,22 @@ public static class MTGFormatter
             resultString = resultString.Replace("{B}", "<sprite=26>");
             resultString = resultString.Replace("{R}", "<sprite=27>");
             resultString = resultString.Replace("{G}", "<sprite=28>");
+            // Hybrid  mana symbols
+            resultString = resultString.Replace("{W/U}", "<sprite=30>");
+            resultString = resultString.Replace("{W/B}", "<sprite=31>");
+            resultString = resultString.Replace("{U/B}", "<sprite=32>");
+            resultString = resultString.Replace("{U/R}", "<sprite=33>");
+            resultString = resultString.Replace("{B/R}", "<sprite=34>");
+            resultString = resultString.Replace("{B/G}", "<sprite=35>");
+            resultString = resultString.Replace("{R/G}", "<sprite=37>");
+            resultString = resultString.Replace("{R/W}", "<sprite=36>");
+            resultString = resultString.Replace("{G/W}", "<sprite=38>");
+            resultString = resultString.Replace("{G/U}", "<sprite=39>");
+            resultString = resultString.Replace("{2/W}", "<sprite=40>");
+            resultString = resultString.Replace("{2/U}", "<sprite=41>");
+            resultString = resultString.Replace("{2/B}", "<sprite=42>");
+            resultString = resultString.Replace("{2/R}", "<sprite=43>");
+            resultString = resultString.Replace("{2/G}", "<sprite=44>");
 
             return resultString;
         }

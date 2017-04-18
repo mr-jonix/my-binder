@@ -8,6 +8,7 @@ public class PopulateWithSets : MonoBehaviour {
 
     public TextAsset[] JSONSource;
     public MTGDatabase DB;
+    public SimpleSearchField SearchField;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,15 @@ public class PopulateWithSets : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
+
+    public void SendSetChange(int setIndex)
+    {
+        if (SearchField != null)
+        {
+            SearchField._mtgCardSet = DB.sets[setIndex];
+            SearchField.DoSearchAndUpdate();
+        }
+    }
 }
