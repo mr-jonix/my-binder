@@ -101,6 +101,21 @@ namespace MyBinder
         }
     }
 
+    public class CmcEqualsSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly int _cmc;
+
+        public CmcEqualsSpecification(int cmcToCompareTo)
+        {
+            _cmc = cmcToCompareTo;
+        }
+
+        public override bool IsSatisfiedBy(MTGCard entity)
+        {
+            return entity.cmc == _cmc;
+        }
+    }
+
     public class EmptySpecification : CompositeSpecification<MTGCard>
     {
         public override bool IsSatisfiedBy(MTGCard entity)
