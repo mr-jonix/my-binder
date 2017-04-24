@@ -23,9 +23,9 @@ public class SimpleSearchField : MonoBehaviour
 
     void Start()
     {
-        string json = _jsonSource.text;
-        _mtgCardSet = JsonUtility.FromJson<MTGSet>(json);
-        DoSearchAndUpdate();
+        //string json = _jsonSource.text;
+        //_mtgCardSet = JsonUtility.FromJson<MTGSet>(json);
+        //DoSearchAndUpdate();
     }
 
     public void DoSearchAndUpdate()

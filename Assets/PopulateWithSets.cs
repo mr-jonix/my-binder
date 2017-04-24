@@ -14,12 +14,13 @@ public class PopulateWithSets : MonoBehaviour {
 	void Start () {
 
         DB = new MTGDatabase();
+        JSONSource = Resources.LoadAll<TextAsset>("JSON");
         foreach (TextAsset json in JSONSource)
         {
             DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
         }
         gameObject.GetComponent<Dropdown>().AddOptions(DB.GetListOfSetNames());
-		
+        SendSetChange(0);
 	}
 	
 	// Update is called once per frame
