@@ -20,6 +20,8 @@ public class SimpleSearchField : MonoBehaviour
     public Toggle _isMulticolored;
     public Toggle _modeAnd;
     public Toggle _modeOr;
+    public Toggle _isCreature;
+    public Toggle _isArtifact;
 
     void Start()
     {
@@ -41,6 +43,8 @@ public class SimpleSearchField : MonoBehaviour
                 isGreen = _isGreen.isOn,
                 isColorless = _isColorless.isOn,
                 isMulticolored = _isMulticolored.isOn,
+                isArtifact = _isArtifact.isOn,
+                isCreature = _isCreature.isOn,
                 name = _inputField.text                
             };
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;

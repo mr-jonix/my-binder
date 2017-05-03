@@ -116,6 +116,78 @@ namespace MyBinder
         }
     }
 
+    public class IsCreatureSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Creature";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsArtifactSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Artifact";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsSorcerySpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Sorcery";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsInstantSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Instant";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsEnchantmentSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Enchantment";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsPlaneswalkerSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Planeswalker";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsTribalSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Tribal";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
+    public class IsLandSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly string _type = "Land";
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.types.Contains(_type);
+        }
+    }
+
     public class EmptySpecification : CompositeSpecification<MTGCard>
     {
         public override bool IsSatisfiedBy(MTGCard entity)

@@ -43,6 +43,8 @@ namespace MyBinder
             var isGreen = new IsGreenSpecification();
             var isColorless = new IsColorlessSpecification();
             var isMulticolored = new IsMulticoloredSpecification();
+            var isCreature = new IsCreatureSpecification();
+            var isArtifact = new IsArtifactSpecification();
 
             var resultingSpecification = englishName.Or(foreignName);
 
@@ -57,6 +59,8 @@ namespace MyBinder
                         if (_filter.isGreen) resultingSpecification = resultingSpecification.And(isGreen);
                         if (_filter.isColorless) resultingSpecification = resultingSpecification.And(isColorless);
                         if (_filter.isMulticolored) resultingSpecification = resultingSpecification.And(isMulticolored);
+                        if (_filter.isArtifact) resultingSpecification = resultingSpecification.And(isArtifact);
+                        if (_filter.isCreature) resultingSpecification = resultingSpecification.And(isCreature);
                         break;
                     }
                 case FilterMode.OR:
