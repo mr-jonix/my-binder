@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 using TMPro;
 using MyBinder;
 
 public class SimpleSearchField : MonoBehaviour
 {
-
+    public bool _allSets = true;
     public SearchEngine _searchEngine;
     public InputField _inputField;
     public TextMeshProUGUI _text;
+    public MTGDatabase _DB;
     public MTGSet _mtgCardSet;
     public TextAsset _jsonSource;
     public Toggle _isWhite;
@@ -22,12 +24,26 @@ public class SimpleSearchField : MonoBehaviour
     public Toggle _modeOr;
     public Toggle _isCreature;
     public Toggle _isArtifact;
+    public Toggle _isLand;
+    public Toggle _isInstant;
+    public Toggle _isSorcery;
+    public Toggle _isEnchantment;
+    public Toggle _isPlaneswalker;
+    public Toggle _isTribal;
 
     void Start()
     {
         //string json = _jsonSource.text;
         //_mtgCardSet = JsonUtility.FromJson<MTGSet>(json);
         //DoSearchAndUpdate();
+        if (_allSets)
+        {
+            var JSONSource = Resources.LoadAll<TextAsset>("JSON");
+            foreach (TextAsset json in JSONSource)
+            {
+                _DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
+            }
+        }
     }
 
     public void DoSearchAndUpdate()
@@ -45,10 +61,17 @@ public class SimpleSearchField : MonoBehaviour
                 isMulticolored = _isMulticolored.isOn,
                 isArtifact = _isArtifact.isOn,
                 isCreature = _isCreature.isOn,
+                isEnchantment = _isEnchantment.isOn,
+                isInstant = _isInstant.isOn,
+                isSorcery = _isSorcery.isOn,
+                isLand = _isLand.isOn,
+                isPlaneswalker = _isPlaneswalker.isOn,
+                isTribal = _isTribal.isOn,
                 name = _inputField.text                
             };
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
             if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;
+
             _searchEngine.SearchFooAdv(myFilter, _mtgCardSet.cards, _text);
         }
         else

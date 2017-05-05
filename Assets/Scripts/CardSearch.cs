@@ -45,6 +45,12 @@ namespace MyBinder
             var isMulticolored = new IsMulticoloredSpecification();
             var isCreature = new IsCreatureSpecification();
             var isArtifact = new IsArtifactSpecification();
+            var isLand = new IsLandSpecification();
+            var isInstant = new IsInstantSpecification();
+            var isSorcery = new IsSorcerySpecification();
+            var isEnchantment = new IsEnchantmentSpecification();
+            var isPlaneswalker = new IsPlaneswalkerSpecification();
+            var isTribal = new IsTribalSpecification();
 
             var resultingSpecification = englishName.Or(foreignName);
 
@@ -61,6 +67,12 @@ namespace MyBinder
                         if (_filter.isMulticolored) resultingSpecification = resultingSpecification.And(isMulticolored);
                         if (_filter.isArtifact) resultingSpecification = resultingSpecification.And(isArtifact);
                         if (_filter.isCreature) resultingSpecification = resultingSpecification.And(isCreature);
+                        if (_filter.isLand) resultingSpecification = resultingSpecification.And(isLand);
+                        if (_filter.isInstant) resultingSpecification = resultingSpecification.And(isInstant);
+                        if (_filter.isSorcery) resultingSpecification = resultingSpecification.And(isSorcery);
+                        if (_filter.isEnchantment) resultingSpecification = resultingSpecification.And(isEnchantment);
+                        if (_filter.isPlaneswalker) resultingSpecification = resultingSpecification.And(isPlaneswalker);
+                        if (_filter.isTribal) resultingSpecification = resultingSpecification.And(isTribal);
                         break;
                     }
                 case FilterMode.OR:

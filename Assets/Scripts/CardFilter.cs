@@ -13,6 +13,12 @@
         public bool isColorless = false;
         public bool isCreature = false;
         public bool isArtifact = false;
+        public bool isInstant = false;
+        public bool isSorcery = false;
+        public bool isEnchantment = false;
+        public bool isLand = false;
+        public bool isPlaneswalker = false;
+        public bool isTribal = false;
         public FilterMode filterMode = FilterMode.AND;
 
     }
