@@ -9,6 +9,7 @@ public class PopulateWithSets : MonoBehaviour {
     public TextAsset[] JSONSource;
     public MTGDatabase DB;
     public SimpleSearchField SearchField;
+    public CardView cardViewObject;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,8 @@ public class PopulateWithSets : MonoBehaviour {
         if (SearchField != null)
         {
             SearchField._mtgCardSet = DB.sets[setIndex];
+            cardViewObject.cardLink = DB.sets[setIndex].cards[0];
+            StartCoroutine(cardViewObject.SetImageFromURL("http://magiccards.info/scans/en/"+DB.sets[setIndex].magicCardsInfoCode.ToLower()+"/"+ cardViewObject.cardLink.number + ".jpg"));
             SearchField.DoSearchAndUpdate();
         }
     }

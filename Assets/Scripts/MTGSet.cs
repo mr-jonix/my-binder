@@ -2,9 +2,8 @@
 using System;
 
 [Serializable]
-public class MTGSet
+public class MTGSet : CardSet
 {
-    public string name;
     public string code;
     public string magicCardsInfoCode;
     public string releaseDate;
@@ -12,5 +11,4 @@ public class MTGSet
     public string type;
     public string block;
     public SetLanguages translations;
-    public List<MTGCard> cards;
-}
+ }
