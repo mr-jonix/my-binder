@@ -1,8 +1,11 @@
-// Copyright (C) 2014 Stephan Schaem - All Rights Reserved
-// This code can only be used under the standard Unity Asset Store End User License Agreement
-// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+float2 UnpackUV(float uv)
+{ 
+	float2 output;
+	output.x = floor(uv / 4096);
+	output.y = uv - 4096 * output.x;
 
-float2 UnpackUV(float uv) { return float2(floor(uv) * 5.0 / 4096.0, frac(uv) * 5.0); }
+	return output * 0.001953125;
+}
 
 fixed4 GetColor(half d, fixed4 faceColor, fixed4 outlineColor, half outline, half softness)
 {
