@@ -9,6 +9,7 @@ public class SimpleSearchField : MonoBehaviour
     public bool _allSets = true;
     public SearchEngine _searchEngine;
     public InputField _inputField;
+    public InputField _cmcInputField;
     public TextMeshProUGUI _text;
     public MTGDatabase _DB;
     public MTGSet _mtgCardSet;
@@ -67,7 +68,8 @@ public class SimpleSearchField : MonoBehaviour
                 isLand = _isLand.isOn,
                 isPlaneswalker = _isPlaneswalker.isOn,
                 isTribal = _isTribal.isOn,
-                name = _inputField.text                
+                name = _inputField.text,
+                cmc = (_cmcInputField.text == string.Empty) ? -17f : float.Parse(_cmcInputField.text)
             };
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
             if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;

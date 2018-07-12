@@ -23,6 +23,29 @@ public class DBAgent : MonoBehaviour {
         }
     }
 
+    public void InitDBFromJSON()
+    {
+        DB = new MTGDatabase();
+        JSONSource = Resources.LoadAll<TextAsset>("JSON");
+        foreach (TextAsset json in JSONSource)
+        {
+            DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
+        }
+    }
+
+    public List<MTGCard> GetCardsFromSets(List<MTGSet> sets)
+    {
+        var cards = new List<MTGCard>();
+        foreach (MTGSet set in sets)
+        {
+            if (set.cards != null)
+            {
+                cards.AddRange(set.cards);
+            }
+        }
+        return cards;
+    }
+
     private void Awake()
     {
         //Check if instance already exists
@@ -43,12 +66,12 @@ public class DBAgent : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        DB = new MTGDatabase();
-        JSONSource = Resources.LoadAll<TextAsset>("JSON");
-        foreach (TextAsset json in JSONSource)
+        InitDBFromJSON();
+        if (DB.sets.Count > 0)
         {
-            DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
+            Debug.Log(DB.sets.Count + " sets loaded");
         }
+        SearchAgent.instance.AssignDB(DB);
     }
 	
 	// Update is called once per frame

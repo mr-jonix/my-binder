@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using MyBinder;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SearchAgent : MonoBehaviour {
 
     public static SearchAgent instance = null;
+    public static MTGDatabase database = null;
 
     private void Awake()
     {
@@ -32,4 +34,12 @@ public class SearchAgent : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void AssignDB(MTGDatabase db)
+    {
+        if (db != null)
+        {
+            database = db;
+        }
+    }
 }

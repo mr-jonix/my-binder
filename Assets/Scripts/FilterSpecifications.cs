@@ -78,6 +78,25 @@ namespace MyBinder
         }
     }
 
+    public class CMCSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly float _cmc;
+
+        public CMCSpecification(float cmc)
+        {
+            _cmc = cmc;
+        }
+
+        public override bool IsSatisfiedBy(MTGCard entity)
+        {
+            if (_cmc == -17f)
+            {
+                return true;
+            }
+            return entity.cmc.Equals(_cmc);
+        }
+    }
+
     public class ForeignNameSpecification : CompositeSpecification<MTGCard>
     {
         private readonly ForeignCard _template;
