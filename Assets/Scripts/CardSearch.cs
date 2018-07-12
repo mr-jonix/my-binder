@@ -34,7 +34,7 @@ namespace MyBinder
             return finalQuery.ToList();
         }
 
-        public static List<MTGCard> AdvancedSearchCP(List<MTGCard> _cardCollection, CardFilter _filter)
+        public static List<MTGCard> AdvancedSearchCP(List<MTGCard> _cardCollection, CardFilter _filter, int _limit)
         {
             var englishName = new EnglishNameSpecification(_filter.name);
             var foreignCardTemplate = new ForeignCard() { name = _filter.name.ToLower(), language = "Russian" };
@@ -102,7 +102,7 @@ namespace MyBinder
                              where resultingSpecification.IsSatisfiedBy(card)
                              select card;
 
-            return finalQuery.ToList();
+            return finalQuery.Take(_limit).OrderBy(card => card.cmc).ToList();
 
         }
 

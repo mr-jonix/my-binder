@@ -25,6 +25,7 @@ public class ConfigAgent : MonoBehaviour {
 
     public int AutoSaveInterval = 1; // in minutes
     public int AutoSaveTimer = 3000;
+    public int SearchResultsLimit = 100;
 
     void FixedUpdate()
     {

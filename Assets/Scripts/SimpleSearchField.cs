@@ -74,7 +74,7 @@ public class SimpleSearchField : MonoBehaviour
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
             if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;
 
-            _searchEngine.SearchFooAdv(myFilter, _mtgCardSet.cards, _text);
+            _searchEngine.SearchFooAdv(myFilter, DBAgent.instance.GetCardsFromSets(DBAgent.instance.DB.sets), _text);
         }
         else
         {

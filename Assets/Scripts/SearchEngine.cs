@@ -19,7 +19,7 @@ public class SearchEngine : MonoBehaviour
 
     public void SearchFooAdv(CardFilter filter, List<MTGCard> cardSetToSearch, TextMeshProUGUI textToUpdate)
     {
-        List<MTGCard> FilteredList = CardSearch.AdvancedSearchCP(cardSetToSearch, filter);
+        List<MTGCard> FilteredList = CardSearch.AdvancedSearchCP(cardSetToSearch, filter, ConfigAgent.instance.SearchResultsLimit);
         textToUpdate.text = "total entries: " + FilteredList.Count + "\n";
         foreach (MTGCard card in FilteredList)
         {
