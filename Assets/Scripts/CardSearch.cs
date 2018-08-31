@@ -102,7 +102,7 @@ namespace MyBinder
                              where resultingSpecification.IsSatisfiedBy(card)
                              select card;
 
-            return finalQuery.Take(_limit).OrderBy(card => card.cmc).ToList();
+            return finalQuery.Take(_limit).OrderBy(card => card.name).OrderBy(card => card.cmc).ToList();
 
         }
 

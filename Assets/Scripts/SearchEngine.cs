@@ -24,7 +24,7 @@ public class SearchEngine : MonoBehaviour
         foreach (MTGCard card in FilteredList)
         {
             string _manaCost = card.manaCost == null ? string.Empty : card.manaCost;
-            textToUpdate.text += card.name + " " + MTGFormatter.FormatManaCost(_manaCost) + "\n";
+            textToUpdate.text += card.name + " " + MTGFormatter.FormatManaCost(_manaCost) + " - "+card.setCode+ " " +card.rarity+ "\n";
         }
     }
 

@@ -31,6 +31,8 @@ public class DBAgent : MonoBehaviour {
         {
             DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
         }
+
+        UpdateCardsWithSetCode();
     }
 
     public List<MTGCard> GetCardsFromSets(List<MTGSet> sets)
@@ -44,6 +46,17 @@ public class DBAgent : MonoBehaviour {
             }
         }
         return cards;
+    }
+
+    public void UpdateCardsWithSetCode()
+    {
+        foreach (MTGSet set in DB.sets)
+        {
+            foreach (MTGCard card in set.cards)
+            {
+                card.setCode = set.code;
+            }
+        }
     }
 
     private void Awake()

@@ -39,6 +39,8 @@ public class MTGCard
     public List<int> variations;
     public string watermark;
 
+    public string setCode;
+
     public bool ContainsForeign(string foreignName, bool onlyRussian)
     {
         if (onlyRussian)
