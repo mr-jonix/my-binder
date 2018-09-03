@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class CardView : MonoBehaviour {
 
@@ -35,8 +36,13 @@ public class CardView : MonoBehaviour {
         yield return www;
         Debug.Log("download OK");
         
-        
         // assign texture
         cardImageObject.texture = www.texture;
+    }
+
+    public void SetImageFromCacheOrURL(string url)
+    {
+        //check cache
+        //if ()
     }
 }

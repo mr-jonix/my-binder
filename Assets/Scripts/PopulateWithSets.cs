@@ -35,7 +35,7 @@ public class PopulateWithSets : MonoBehaviour {
         {
             SearchField._mtgCardSet = DB.sets[setIndex];
             cardViewObject.cardLink = DB.sets[setIndex].cards[0];
-            StartCoroutine(cardViewObject.SetImageFromURL("http://magiccards.info/scans/en/"+DB.sets[setIndex].magicCardsInfoCode.ToLower()+"/"+ cardViewObject.cardLink.number + ".jpg"));
+            StartCoroutine(cardViewObject.SetImageFromURL("https://img.scryfall.com/cards/normal/en/" + DB.sets[setIndex].code.ToLower()+"/"+ cardViewObject.cardLink.number + ".jpg"));
             SearchField.DoSearchAndUpdate();
         }
     }
