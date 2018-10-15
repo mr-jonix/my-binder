@@ -4,7 +4,7 @@ namespace MyBinder
 {
     public class IsWhiteSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly string _color = "White";
+        private readonly string _color = "W";
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.colors.Contains(_color);
@@ -13,7 +13,7 @@ namespace MyBinder
 
     public class IsBlueSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly string _color = "Blue";
+        private readonly string _color = "U";
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.colors.Contains(_color);
@@ -22,7 +22,7 @@ namespace MyBinder
 
     public class IsBlackSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly string _color = "Black";
+        private readonly string _color = "B";
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.colors.Contains(_color);
@@ -31,7 +31,7 @@ namespace MyBinder
 
     public class IsRedSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly string _color = "Red";
+        private readonly string _color = "R";
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.colors.Contains(_color);
@@ -40,7 +40,7 @@ namespace MyBinder
 
     public class IsGreenSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly string _color = "Green";
+        private readonly string _color = "G";
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.colors.Contains(_color);
@@ -93,7 +93,7 @@ namespace MyBinder
             {
                 return true;
             }
-            return entity.cmc.Equals(_cmc);
+            return entity.convertedManaCost.Equals(_cmc);
         }
     }
 
@@ -108,7 +108,7 @@ namespace MyBinder
 
         public override bool IsSatisfiedBy(MTGCard entity)
         {
-            foreach (ForeignCard foreignCard in entity.foreignNames)
+            foreach (ForeignCard foreignCard in entity.foreignData)
             {
                 if (foreignCard.language == _template.language && foreignCard.name.ToLower().Contains(_template.name))
                 {
@@ -131,7 +131,7 @@ namespace MyBinder
 
         public override bool IsSatisfiedBy(MTGCard entity)
         {
-            return entity.cmc == _cmc;
+            return entity.convertedManaCost == _cmc;
         }
     }
 

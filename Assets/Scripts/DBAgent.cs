@@ -48,6 +48,19 @@ public class DBAgent : MonoBehaviour {
         return cards;
     }
 
+    public List<MTGToken> GetTokensFromSets(List<MTGSet> sets)
+    {
+        var tokens = new List<MTGToken>();
+        foreach (MTGSet set in sets)
+        {
+            if (set.tokens != null)
+            {
+                tokens.AddRange(set.tokens);
+            }
+        }
+        return tokens;
+    }
+
     public void UpdateCardsWithSetCode()
     {
         foreach (MTGSet set in DB.sets)

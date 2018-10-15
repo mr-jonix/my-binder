@@ -69,7 +69,7 @@ public class SimpleSearchField : MonoBehaviour
                 isPlaneswalker = _isPlaneswalker.isOn,
                 isTribal = _isTribal.isOn,
                 name = _inputField.text,
-                cmc = (_cmcInputField.text == string.Empty) ? -17f : float.Parse(_cmcInputField.text)
+                convertedManaCost = (_cmcInputField.text == string.Empty) ? -17f : float.Parse(_cmcInputField.text)
             };
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
             if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;

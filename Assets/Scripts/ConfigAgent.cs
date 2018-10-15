@@ -1,6 +1,7 @@
 ﻿using MyBinder;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class ConfigAgent : MonoBehaviour {
@@ -26,6 +27,7 @@ public class ConfigAgent : MonoBehaviour {
     public int AutoSaveInterval = 1; // in minutes
     public int AutoSaveTimer = 3000;
     public int SearchResultsLimit = 100;
+    public string imageSaveDataPath = "D:/temp/images//";
 
     void FixedUpdate()
     {
@@ -59,6 +61,10 @@ public class ConfigAgent : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
         AutoSaveTimer = AutoSaveInterval * 3600;
+
+        if (!File.Exists(imageSaveDataPath)){
+            Directory.CreateDirectory(imageSaveDataPath);
+        }
     }
 
 }

@@ -8,6 +8,8 @@ public class CardView : MonoBehaviour {
     public MTGCard cardLink;
     public Sprite defaultImage;
     public UnityEngine.UI.RawImage cardImageObject;
+    public bool wasUpdated = true;
+    public int timer = 60;
 
 
 	// Use this for initialization
@@ -18,14 +20,22 @@ public class CardView : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (cardLink == null)
+        if (timer>=1&&wasUpdated) timer--;
+
+        if (cardLink == null&&wasUpdated)
         {
             cardImageObject.texture = defaultImage.texture;
+            wasUpdated = false;
         }
-		
+		else 
+        if (wasUpdated&&timer<1)
+        {
+            SetImageFromCacheOrURL(cardLink.multiverseId.ToString());
+            timer = 60;
+        }
 	}
 
-    public IEnumerator SetImageFromURL(string url)
+    public IEnumerator SetImageFromURL(string url, string multiverseId)
     {
         Debug.Log("Start download from " + url);
 
@@ -38,11 +48,31 @@ public class CardView : MonoBehaviour {
         
         // assign texture
         cardImageObject.texture = www.texture;
+
+        File.WriteAllBytes(ConfigAgent.instance.imageSaveDataPath+multiverseId+".png", ImageConversion.EncodeToPNG(www.texture));
     }
 
-    public void SetImageFromCacheOrURL(string url)
+    public void SetImageFromCacheOrURL(string multiverseId)
     {
-        //check cache
-        //if ()
+        string filePath = ConfigAgent.instance.imageSaveDataPath + multiverseId + ".png";
+        bool imageCached = File.Exists(filePath);
+
+        if (!imageCached)
+        {
+            string URLpath = "https://api.scryfall.com/cards/multiverse/" + multiverseId + "?format=image&version=normal";
+            StartCoroutine(SetImageFromURL(URLpath, multiverseId));
+            wasUpdated = true;
+        }
+        else
+        {
+            ImageConversion.LoadImage((Texture2D)cardImageObject.texture, File.ReadAllBytes(filePath));
+            wasUpdated = true;
+        }
+    }
+
+    public void SetCardLink(MTGCard card)
+    {
+        cardLink = card;
+        wasUpdated = true;
     }
 }

@@ -20,8 +20,8 @@ namespace MyBinder
             var finalQuery = from card in _cardCollection
                              where card.name.ToLower().Contains(_filter.name.ToLower()) || card.ContainsForeign(_filter.name.ToLower(), onlyRussian)
                              select card;
-            if (_filter.cmc >= 0f) finalQuery = from card in finalQuery
-                                                where card.cmc.Equals(_filter.cmc)
+            if (_filter.convertedManaCost >= 0f) finalQuery = from card in finalQuery
+                                                where card.convertedManaCost.Equals(_filter.convertedManaCost)
                                                 select card;
             if (_filter.isWhite) finalQuery = finalQuery.Where(x => x.colors.Contains("White"));
             if (_filter.isBlue) finalQuery = finalQuery.Where(x => x.colors.Contains("Blue"));
@@ -39,7 +39,7 @@ namespace MyBinder
             var englishName = new EnglishNameSpecification(_filter.name);
             var foreignCardTemplate = new ForeignCard() { name = _filter.name.ToLower(), language = "Russian" };
             var foreignName = new ForeignNameSpecification(foreignCardTemplate);
-            var cmc = new CMCSpecification(_filter.cmc);
+            var convertedManaCost = new CMCSpecification(_filter.convertedManaCost);
             var isWhite = new IsWhiteSpecification();
             var isBlue = new IsBlueSpecification();
             var isBlack = new IsBlackSpecification();
@@ -57,7 +57,7 @@ namespace MyBinder
             var isTribal = new IsTribalSpecification();
 
             var resultingSpecification = englishName.Or(foreignName);
-            resultingSpecification = resultingSpecification.And(cmc);
+            resultingSpecification = resultingSpecification.And(convertedManaCost);
 
             switch (_filter.filterMode)
             {
@@ -102,7 +102,7 @@ namespace MyBinder
                              where resultingSpecification.IsSatisfiedBy(card)
                              select card;
 
-            return finalQuery.Take(_limit).OrderBy(card => card.name).OrderBy(card => card.cmc).ToList();
+            return finalQuery.Take(_limit).OrderBy(card => card.name).OrderBy(card => card.convertedManaCost).ToList();
 
         }
 

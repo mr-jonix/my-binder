@@ -6,6 +6,7 @@ using TMPro;
 
 public class SearchEngine : MonoBehaviour
 {
+    public CardView cardView;
 
     public void SearchFoo(string nameToFind, List<MTGCard> cardSetToSearch, Text textToUpdate)
     {
@@ -25,6 +26,11 @@ public class SearchEngine : MonoBehaviour
         {
             string _manaCost = card.manaCost == null ? string.Empty : card.manaCost;
             textToUpdate.text += card.name + " " + MTGFormatter.FormatManaCost(_manaCost) + " - "+card.setCode+ " " +card.rarity+ "\n";
+        }
+
+        if (cardView != null)
+        {
+            cardView.SetCardLink(FilteredList[0]);
         }
     }
 

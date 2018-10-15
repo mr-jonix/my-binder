@@ -1,51 +1,37 @@
 ﻿using System.Collections.Generic;
 using System;
 [Serializable]
-public class MTGCard
+public class MTGCard: CardPrototype
 {
-    public string artist;
-    public float cmc;
-    public List<string> colorIdentity;
-    public List<string> colors;
-    public string flavor;
-    public List<ForeignCard> foreignNames;
-    public int hand;
-    public string id;
-    public string imageName;
-    public string layout;
-    public int life;
-    public int loyalty;
+    public float convertedManaCost;
+    public string flavorText;
+    public bool foilOnly=false;
+    public List<ForeignCard> foreignData;
+    public string frameVersion;
+    public bool hasFoil=false;
+    public bool hasNonFoil=false;
+    public string layout = "normal";
+    public MTGLegality legalities;
     public string manaCost;
-    public string multiverseid;
-    public string name;
+    public int multiverseId;
     public List<string> names;
-    public string number;
     public string originalText;
     public string originalType;
-    public string power;
     public List<string> printings;
     public string rarity;
-    public bool reserved;
-    public string releaseDate;
-    public string text;
-    public bool timeshifted;
-    public string toughness;
-    public string type;
-    public List<string> types;
-    public string source;
-    public bool starter;
+    public bool reserve = false;
+    //public List<MTGRuling> rulings
     public List<string> subtypes;
     public List<string> supertypes;
-    public List<int> variations;
-    public string watermark;
-
+    public List<string> types;
     public string setCode;
+
 
     public bool ContainsForeign(string foreignName, bool onlyRussian)
     {
         if (onlyRussian)
         {
-            foreach (ForeignCard f in foreignNames)
+            foreach (ForeignCard f in foreignData)
             {
                 if (f.name.ToLower().Contains(foreignName) && f.language == "Russian")
                 {
@@ -55,7 +41,7 @@ public class MTGCard
         }
         else
         {
-            foreach (ForeignCard f in foreignNames)
+            foreach (ForeignCard f in foreignData)
             {
                 if (f.name.ToLower().Contains(foreignName))
                 {

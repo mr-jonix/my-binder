@@ -5,10 +5,14 @@ using System;
 public class MTGSet : CardSet
 {
     public string code;
-    public string magicCardsInfoCode;
+    //public MTGJSONMeta meta;
+    public string mtgoCode;
+    public bool onlineOnly = false;
     public string releaseDate;
+    public List<MTGToken> tokens;
     public string border;
     public string type;
     public string block;
-    public SetLanguages translations;
+    //public SetLanguages translations; - deprecated?
+
  }
