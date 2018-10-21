@@ -9,12 +9,12 @@ public class CardView : MonoBehaviour {
     public Sprite defaultImage;
     public UnityEngine.UI.RawImage cardImageObject;
     public bool wasUpdated = true;
-    public int timer = 60;
+    public int timer = 30;
 
 
 	// Use this for initialization
 	void Start () {
-        cardImageObject.texture = defaultImage.texture;
+        cardImageObject.texture = new Texture2D(488,680,TextureFormat.ARGB32,false);
     }
 	
 	// Update is called once per frame

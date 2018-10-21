@@ -7,6 +7,7 @@ using TMPro;
 public class SearchEngine : MonoBehaviour
 {
     public CardView cardView;
+    public AlbumView albumView;
 
     public void SearchFoo(string nameToFind, List<MTGCard> cardSetToSearch, Text textToUpdate)
     {
@@ -28,10 +29,12 @@ public class SearchEngine : MonoBehaviour
             textToUpdate.text += card.name + " " + MTGFormatter.FormatManaCost(_manaCost) + " - "+card.setCode+ " " +card.rarity+ "\n";
         }
 
-        if (cardView != null)
+        if (cardView != null && FilteredList.Count>0)
         {
             cardView.SetCardLink(FilteredList[0]);
         }
+        albumView.UpdateCardViews(FilteredList);
+
     }
 
 }
