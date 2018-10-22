@@ -31,6 +31,7 @@ public class ConfigAgent : MonoBehaviour {
     public int SearchResultsLimit = 100;
     public string imageSaveDataPath = "D:/temp/images//";
     public int ImageUpdateTimer = 10;
+    public LanguageMode languageMode = LanguageMode.ENGLISH;
 
     void FixedUpdate()
     {
@@ -44,6 +45,11 @@ public class ConfigAgent : MonoBehaviour {
             AutoSaveTimer = AutoSaveInterval * 3000;
         }
 
+    }
+
+    public void ToggleLanguageMode()
+    {
+        languageMode = (languageMode == LanguageMode.ENGLISH) ? LanguageMode.RUSSIAN : LanguageMode.ENGLISH;
     }
 
     private void Awake()

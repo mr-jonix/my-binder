@@ -98,7 +98,16 @@ public class CardView : MonoBehaviour {
     public void SetCardLink(MTGCard card)
     {
         cardLink = card;
-        headerText.text = card.name +" "+MTGFormatter.FormatManaCost(card.manaCost);
+        string headerName = string.Empty;
+        if (card.foreignData.Count > 0)
+        {
+            headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? card.name : card.foreignData.Find(_card => _card.language.Contains("Russian")).name;
+        }
+        else
+        {
+            headerName = card.name;
+        }
+        headerText.text = headerName +" "+MTGFormatter.FormatManaCost(card.manaCost);
         headerText.color = GetHeaderTextColor(card);
         headerBG.color = GetHeaderColor(card);
         //cardImageObject.gameObject.SetActive(false); Unoptimal solution
