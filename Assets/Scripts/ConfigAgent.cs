@@ -1,9 +1,11 @@
 ﻿using MyBinder;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+[Serializable]
 public class ConfigAgent : MonoBehaviour {
 
     public static ConfigAgent instance = null;
@@ -28,6 +30,7 @@ public class ConfigAgent : MonoBehaviour {
     public int AutoSaveTimer = 3000;
     public int SearchResultsLimit = 100;
     public string imageSaveDataPath = "D:/temp/images//";
+    public int ImageUpdateTimer = 10;
 
     void FixedUpdate()
     {

@@ -12,7 +12,7 @@ public class MTGCard: CardPrototype
     public bool hasNonFoil=false;
     public string layout = "normal";
     public MTGLegality legalities;
-    public string manaCost;
+    public string manaCost = String.Empty;
     public int multiverseId;
     public List<string> names;
     public string originalText;
