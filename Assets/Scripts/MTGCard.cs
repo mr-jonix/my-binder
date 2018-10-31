@@ -5,7 +5,7 @@ public class MTGCard: CardPrototype
 {
     public float convertedManaCost;
     public string flavorText;
-    public bool foilOnly=false;
+    public bool isFoilOnly=false;
     public List<ForeignCard> foreignData;
     public string frameVersion;
     public bool hasFoil=false;
@@ -19,7 +19,7 @@ public class MTGCard: CardPrototype
     public string originalType;
     public List<string> printings;
     public string rarity;
-    public bool reserve = false;
+    public bool isReserved = false;
     //public List<MTGRuling> rulings
     public List<string> subtypes;
     public List<string> supertypes;

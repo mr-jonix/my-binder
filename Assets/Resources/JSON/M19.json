@@ -96,6 +96,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -226,6 +227,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -350,6 +352,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -367,6 +370,11 @@
             "manaCost": "{2}{W}{W}",
             "multiverseId": 447139,
             "name": "Ajani, Adversary of Tyrants",
+            "names": [
+                "Ajani, Adversary of Tyrants",
+                "Cat",
+                "Ajani, Adversary of Tyrants Emblem"
+            ],
             "number": "3",
             "originalText": "+1: Put a +1/+1 counter on each of up to two target creatures.\n−2: Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.\n−7: You get an emblem with \"At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink.\"",
             "originalType": "Legendary Planeswalker — Ajani",
@@ -479,6 +487,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -496,6 +505,10 @@
             "manaCost": "{2}{W}{W}",
             "multiverseId": 447140,
             "name": "Ajani's Last Stand",
+            "names": [
+                "Ajani's Last Stand",
+                "Avatar"
+            ],
             "number": "4",
             "originalText": "Whenever a creature or planeswalker you control dies, you may sacrifice Ajani's Last Stand. If you do, create a 4/4 white Avatar creature token with flying.\nWhen a spell or ability an opponent controls causes you to discard this card, if you control a Plains, create a 4/4 white Avatar creature token with flying.",
             "originalType": "Enchantment",
@@ -623,6 +636,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -783,6 +797,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -912,6 +927,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1041,6 +1057,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1121,6 +1138,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1251,6 +1269,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1387,6 +1406,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1528,6 +1548,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1546,6 +1567,10 @@
             "manaCost": "{3}{W}",
             "multiverseId": 447148,
             "name": "Gallant Cavalry",
+            "names": [
+                "Gallant Cavalry",
+                "Knight"
+            ],
             "number": "12",
             "originalText": "Vigilance <i>(Attacking doesn't cause this creature to tap.)</i>\nWhen Gallant Cavalry enters the battlefield, create a 2/2 white Knight creature token with vigilance.",
             "originalType": "Creature — Human Knight",
@@ -1664,6 +1689,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1798,6 +1824,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1940,6 +1967,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2080,6 +2108,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2217,6 +2246,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2352,6 +2382,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2488,6 +2519,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2611,6 +2643,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2629,6 +2662,10 @@
             "manaCost": "{4}{W}",
             "multiverseId": 447156,
             "name": "Knightly Valor",
+            "names": [
+                "Knightly Valor",
+                "Knight"
+            ],
             "number": "20",
             "originalText": "Enchant creature\nWhen Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance. <i>(Attacking doesn't cause it to tap.)</i>\nEnchanted creature gets +2/+2 and has vigilance.",
             "originalType": "Enchantment — Aura",
@@ -2755,6 +2792,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2772,6 +2810,10 @@
             "manaCost": "{4}{W}{W}",
             "multiverseId": 447157,
             "name": "Lena, Selfless Champion",
+            "names": [
+                "Lena, Selfless Champion",
+                "Soldier"
+            ],
             "number": "21",
             "originalText": "When Lena, Selfless Champion enters the battlefield, create a 1/1 white Soldier creature token for each nontoken creature you control.\nSacrifice Lena: Creatures you control with power less than Lena's power gain indestructible until end of turn.",
             "originalType": "Legendary Creature — Human Knight",
@@ -2906,6 +2948,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3049,6 +3092,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3065,6 +3109,10 @@
             "manaCost": "{2}{W}{W}",
             "multiverseId": 447159,
             "name": "Leonin Warleader",
+            "names": [
+                "Leonin Warleader",
+                "Cat"
+            ],
             "number": "23",
             "originalText": "Whenever Leonin Warleader attacks, create two 1/1 white Cat creature tokens with lifelink that are tapped and attacking.",
             "originalType": "Creature — Cat Soldier",
@@ -3183,6 +3231,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3320,6 +3369,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3455,6 +3505,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3586,6 +3637,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3738,6 +3790,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3872,6 +3925,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4008,6 +4062,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4137,6 +4192,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4275,6 +4331,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4411,6 +4468,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4535,6 +4593,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4551,6 +4610,10 @@
             "manaCost": "{1}{W}{W}",
             "multiverseId": 447170,
             "name": "Resplendent Angel",
+            "names": [
+                "Resplendent Angel",
+                "Angel"
+            ],
             "number": "34",
             "originalText": "Flying\nAt the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance.\n{3}{W}{W}{W}: Until end of turn, Resplendent Angel gets +2/+2 and gains lifelink.",
             "originalType": "Creature — Angel",
@@ -4690,6 +4753,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4821,6 +4885,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4956,6 +5021,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5089,6 +5155,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5213,6 +5280,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5369,6 +5437,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5501,6 +5570,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5636,6 +5706,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5780,6 +5851,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5911,6 +5983,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6046,6 +6119,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6187,6 +6261,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6205,6 +6280,10 @@
             "manaCost": "{2}{U}",
             "multiverseId": 447182,
             "name": "Aviation Pioneer",
+            "names": [
+                "Aviation Pioneer",
+                "Thopter"
+            ],
             "number": "46",
             "originalText": "When Aviation Pioneer enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying.",
             "originalType": "Creature — Human Artificer",
@@ -6323,6 +6402,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6461,6 +6541,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6599,6 +6680,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6746,6 +6828,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6882,6 +6965,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7012,6 +7096,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7167,6 +7252,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7305,6 +7391,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7446,6 +7533,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7580,6 +7668,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7720,6 +7809,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7856,6 +7946,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7977,6 +8068,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8118,6 +8210,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8291,6 +8384,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8449,6 +8543,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8597,6 +8692,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8732,6 +8828,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8889,6 +8986,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9038,6 +9136,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9174,6 +9273,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9313,6 +9413,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9447,6 +9548,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9463,6 +9565,10 @@
             "manaCost": "{2}{U}",
             "multiverseId": 447205,
             "name": "Sai, Master Thopterist",
+            "names": [
+                "Sai, Master Thopterist",
+                "Thopter"
+            ],
             "number": "69",
             "originalText": "Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.\n{1}{U}, Sacrifice two artifacts: Draw a card.",
             "originalType": "Legendary Creature — Human Artificer",
@@ -9589,6 +9695,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9725,6 +9832,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9861,6 +9969,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9986,6 +10095,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10142,6 +10252,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10280,6 +10391,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10423,6 +10535,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10562,6 +10675,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10696,6 +10810,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10834,6 +10949,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10851,6 +10967,11 @@
             "manaCost": "{3}{U}{U}",
             "multiverseId": 447215,
             "name": "Tezzeret, Artifice Master",
+            "names": [
+                "Tezzeret, Artifice Master",
+                "Thopter",
+                "Tezzeret, Artifice Master Emblem"
+            ],
             "number": "79",
             "originalText": "+1: Create a 1/1 colorless Thopter artifact creature token with flying.\n0: Draw a card. If you control three or more artifacts, draw two cards instead.\n−9: You get an emblem with \"At the beginning of your end step, search your library for a permanent card, put it onto the battlefield, then shuffle your library.\"",
             "originalType": "Legendary Planeswalker — Tezzeret",
@@ -10964,6 +11085,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11101,6 +11223,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11235,6 +11358,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11366,6 +11490,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11502,6 +11627,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11651,6 +11777,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11787,6 +11914,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11916,6 +12044,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12051,6 +12180,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12186,6 +12316,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12331,6 +12462,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12482,6 +12614,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12626,6 +12759,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12763,6 +12897,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12781,6 +12916,10 @@
             "manaCost": "{1}{B}",
             "multiverseId": 447229,
             "name": "Doomed Dissenter",
+            "names": [
+                "Doomed Dissenter",
+                "Zombie"
+            ],
             "number": "93",
             "originalText": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token.",
             "originalType": "Creature — Human",
@@ -12900,6 +13039,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13051,6 +13191,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13192,6 +13333,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13325,6 +13467,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13473,6 +13616,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13635,6 +13779,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13651,6 +13796,10 @@
             "manaCost": "{B}{B}",
             "multiverseId": 447235,
             "name": "Graveyard Marshal",
+            "names": [
+                "Graveyard Marshal",
+                "Zombie"
+            ],
             "number": "99",
             "originalText": "{2}{B}, Exile a creature card from your graveyard: Create a tapped 2/2 black Zombie creature token.",
             "originalType": "Creature — Zombie Soldier",
@@ -13770,6 +13919,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13906,6 +14056,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14050,6 +14201,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14189,6 +14341,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14321,6 +14474,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14483,6 +14637,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14608,6 +14763,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14761,6 +14917,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14901,6 +15058,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15044,6 +15202,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15194,6 +15353,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15330,6 +15490,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15469,6 +15630,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15486,6 +15648,10 @@
             "manaCost": "{3}{B}{B}",
             "multiverseId": 447248,
             "name": "Open the Graves",
+            "names": [
+                "Open the Graves",
+                "Zombie"
+            ],
             "number": "112",
             "originalText": "Whenever a nontoken creature you control dies, create a 2/2 black Zombie creature token.",
             "originalType": "Enchantment",
@@ -15594,6 +15760,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15752,6 +15919,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15891,6 +16059,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16025,6 +16194,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16166,6 +16336,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16322,6 +16493,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16458,6 +16630,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16595,6 +16768,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16725,6 +16899,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16858,6 +17033,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16989,6 +17165,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17124,6 +17301,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17264,6 +17442,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17387,6 +17566,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17526,6 +17706,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17676,6 +17857,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17819,6 +18001,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17966,6 +18149,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18113,6 +18297,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18256,6 +18441,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18380,6 +18566,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18521,6 +18708,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18673,6 +18861,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18807,6 +18996,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18942,6 +19132,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19105,6 +19296,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19123,6 +19315,10 @@
             "manaCost": "{2}{R}",
             "multiverseId": 447274,
             "name": "Dragon Egg",
+            "names": [
+                "Dragon Egg",
+                "Dragon"
+            ],
             "number": "138",
             "originalText": "Defender <i>(This creature can't attack.)</i>\nWhen Dragon Egg dies, create a 2/2 red Dragon creature token with flying and \"{R}: This creature gets +1/+0 until end of turn.\"",
             "originalType": "Creature — Dragon Egg",
@@ -19245,6 +19441,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19377,6 +19574,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19497,6 +19695,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19528,6 +19727,7 @@
                 "CED",
                 "CEI",
                 "DOM",
+                "FBB",
                 "LEA",
                 "LEB",
                 "M13",
@@ -19645,6 +19845,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19662,6 +19863,10 @@
             "manaCost": "{1}{R}",
             "multiverseId": 447278,
             "name": "Goblin Instigator",
+            "names": [
+                "Goblin Instigator",
+                "Goblin"
+            ],
             "number": "142",
             "originalText": "When Goblin Instigator enters the battlefield, create a 1/1 red Goblin creature token.",
             "originalType": "Creature — Goblin Rogue",
@@ -19780,6 +19985,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19916,6 +20122,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20060,6 +20267,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20211,6 +20419,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20346,6 +20555,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20470,6 +20680,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20598,6 +20809,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20615,6 +20827,10 @@
             "manaCost": "{4}{R}{R}",
             "multiverseId": 447285,
             "name": "Lathliss, Dragon Queen",
+            "names": [
+                "Lathliss, Dragon Queen",
+                "Dragon"
+            ],
             "number": "149",
             "originalText": "Flying\nWhenever another nontoken Dragon enters the battlefield under your control, create a 5/5 red Dragon creature token with flying.\n{1}{R}: Dragons you control get +1/+0 until end of turn.",
             "originalType": "Legendary Creature — Dragon",
@@ -20735,6 +20951,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20883,6 +21100,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21017,6 +21235,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21140,6 +21359,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21265,6 +21485,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21282,6 +21503,10 @@
             "manaCost": "{1}{R}{R}",
             "multiverseId": 447290,
             "name": "Sarkhan, Fireblood",
+            "names": [
+                "Sarkhan, Fireblood",
+                "Dragon"
+            ],
             "number": "154",
             "originalText": "+1: You may discard a card. If you do, draw a card.\n+1: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\n−7: Create four 5/5 red Dragon creature tokens with flying.",
             "originalType": "Legendary Planeswalker — Sarkhan",
@@ -21398,6 +21623,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21545,6 +21771,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21695,6 +21922,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21835,6 +22063,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21968,6 +22197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22101,6 +22331,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22231,6 +22462,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22365,6 +22597,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22505,6 +22738,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22647,6 +22881,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22789,6 +23024,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22942,6 +23178,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23077,6 +23314,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23218,6 +23456,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23356,6 +23595,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23493,6 +23733,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23623,6 +23864,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23762,6 +24004,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23900,6 +24143,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24046,6 +24290,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24184,6 +24429,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24319,6 +24565,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24336,6 +24583,10 @@
             "manaCost": "{3}{G}",
             "multiverseId": 447312,
             "name": "Druid of Horns",
+            "names": [
+                "Druid of Horns",
+                "Beast"
+            ],
             "number": "176",
             "originalText": "Whenever you cast an Aura spell that targets Druid of Horns, create a 3/3 green Beast creature token.",
             "originalType": "Creature — Human Druid",
@@ -24459,6 +24710,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24596,6 +24848,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24734,6 +24987,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24858,6 +25112,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24995,6 +25250,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25129,6 +25385,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25274,6 +25531,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25311,6 +25569,7 @@
                 "CED",
                 "CEI",
                 "DPA",
+                "FBB",
                 "GS1",
                 "LEA",
                 "LEB",
@@ -25426,6 +25685,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25549,6 +25809,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25683,6 +25944,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25832,6 +26094,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25968,6 +26231,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26093,6 +26357,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26227,6 +26492,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26378,6 +26644,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26514,6 +26781,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26652,6 +26920,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26796,6 +27065,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26929,6 +27199,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27067,6 +27338,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27207,6 +27479,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27342,6 +27615,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27478,6 +27752,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27609,6 +27884,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27760,6 +28036,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27886,6 +28163,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28008,6 +28286,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28024,6 +28303,10 @@
             "manaCost": "{1}{G}",
             "multiverseId": 447339,
             "name": "Thorn Lieutenant",
+            "names": [
+                "Thorn Lieutenant",
+                "Elf Warrior"
+            ],
             "number": "203",
             "originalText": "Whenever Thorn Lieutenant becomes the target of a spell or ability an opponent controls, create a 1/1 green Elf Warrior creature token.\n{5}{G}: Thorn Lieutenant gets +4/+4 until end of turn.",
             "originalType": "Creature — Elf Warrior",
@@ -28138,6 +28421,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28274,6 +28558,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28409,6 +28694,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28543,6 +28829,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28666,6 +28953,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28683,6 +28971,10 @@
             "manaCost": "{3}{G}{G}",
             "multiverseId": 447344,
             "name": "Vivien Reid",
+            "names": [
+                "Vivien Reid",
+                "Vivien Reid Emblem"
+            ],
             "number": "208",
             "originalText": "+1: Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\n−3: Destroy target artifact, enchantment, or creature with flying.\n−8: You get an emblem with \"Creatures you control get +2/+2 and have vigilance, trample, and indestructible.\"",
             "originalType": "Legendary Planeswalker — Vivien",
@@ -28790,6 +29082,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28929,6 +29222,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29068,6 +29362,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29196,6 +29491,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29333,6 +29629,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29470,6 +29767,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29630,6 +29928,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29646,6 +29945,10 @@
             "manaCost": "{1}{R}{G}",
             "multiverseId": 447351,
             "name": "Draconic Disciple",
+            "names": [
+                "Draconic Disciple",
+                "Dragon"
+            ],
             "number": "215",
             "originalText": "{T}: Add one mana of any color.\n{7}, {T}, Sacrifice Draconic Disciple: Create a 5/5 red Dragon creature token with flying.",
             "originalType": "Creature — Human Shaman",
@@ -29766,6 +30069,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29911,6 +30215,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29927,6 +30232,10 @@
             "manaCost": "{2}{R}{W}",
             "multiverseId": 447353,
             "name": "Heroic Reinforcements",
+            "names": [
+                "Heroic Reinforcements",
+                "Soldier"
+            ],
             "number": "217",
             "originalText": "Create two 1/1 white Soldier creature tokens. Until end of turn, creatures you control get +1/+1 and gain haste. <i>(They can attack and {T} this turn.)</i>",
             "originalType": "Sorcery",
@@ -29953,6 +30262,11 @@
             "artist": "Svetlin Velinov",
             "borderColor": "black",
             "colorIdentity": [
+                "B",
+                "R",
+                "U"
+            ],
+            "colorIndicator": [
                 "B",
                 "R",
                 "U"
@@ -30038,6 +30352,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -30123,7 +30438,7 @@
             "types": [
                 "Planeswalker"
             ],
-            "uuid": "7b215968-93a6-4278-ac61-4e3e8c3c3943"
+            "uuid": "7b215968-93a6-4278-ac61-4e3e8c3c3941"
         },
         {
             "artist": "Svetlin Velinov",
@@ -30214,6 +30529,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -30302,7 +30618,7 @@
             "types": [
                 "Creature"
             ],
-            "uuid": "7b215968-93a6-4278-ac61-4e3e8c3c3943"
+            "uuid": "7b215968-93a6-4278-ac61-4e3e8c3c3940"
         },
         {
             "artist": "Svetlin Velinov",
@@ -30404,6 +30720,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -30541,6 +30858,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -30686,6 +31004,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -30828,6 +31147,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -30844,6 +31164,10 @@
             "manaCost": "{3}{W}{B}",
             "multiverseId": 447359,
             "name": "Regal Bloodlord",
+            "names": [
+                "Regal Bloodlord",
+                "Bat"
+            ],
             "number": "222",
             "originalText": "Flying\nAt the beginning of each end step, if you gained life this turn, create a 1/1 black Bat creature token with flying.",
             "originalType": "Creature — Vampire Soldier",
@@ -30981,6 +31305,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31111,6 +31436,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31248,6 +31574,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31398,6 +31725,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31524,6 +31852,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31638,6 +31967,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31789,6 +32119,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31929,6 +32260,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -31945,6 +32277,10 @@
             "manaCost": "{3}",
             "multiverseId": 447367,
             "name": "Desecrated Tomb",
+            "names": [
+                "Desecrated Tomb",
+                "Bat"
+            ],
             "number": "230",
             "originalText": "Whenever one or more creature cards leave your graveyard, create a 1/1 black Bat creature token with flying.",
             "originalType": "Artifact",
@@ -32061,6 +32397,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32180,6 +32517,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32306,6 +32644,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32424,6 +32763,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32557,6 +32897,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32682,6 +33023,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32815,6 +33157,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -32936,6 +33279,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33069,6 +33413,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33198,6 +33543,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33327,6 +33673,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33457,6 +33804,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33487,6 +33835,7 @@
                 "8ED",
                 "9ED",
                 "ATQ",
+                "FBB",
                 "M14",
                 "M19",
                 "PTC",
@@ -33608,6 +33957,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33725,6 +34075,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33742,6 +34093,10 @@
             "manaCost": "{3}",
             "multiverseId": 447381,
             "name": "Sigiled Sword of Valeron",
+            "names": [
+                "Sigiled Sword of Valeron",
+                "Knight"
+            ],
             "number": "244",
             "originalText": "Equipped creature gets +2/+0, has vigilance, and is a Knight in addition to its other types.\nWhenever equipped creature attacks, create a 2/2 white Knight creature token with vigilance that's attacking.\nEquip {3}",
             "originalType": "Artifact — Equipment",
@@ -33863,6 +34218,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -33995,6 +34351,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34119,6 +34476,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34136,6 +34494,10 @@
             "manaCost": "{3}",
             "multiverseId": 447384,
             "name": "Transmogrifying Wand",
+            "names": [
+                "Transmogrifying Wand",
+                "Ox"
+            ],
             "number": "247",
             "originalText": "Transmogrifying Wand enters the battlefield with three charge counters on it.\n{1}, {T}, Remove a charge counter from Transmogrifying Wand: Destroy target creature. Its controller creates a 2/4 white Ox creature token. Activate this ability only any time you could cast a sorcery.",
             "originalType": "Artifact",
@@ -34258,6 +34620,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34389,6 +34752,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34530,6 +34894,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34664,6 +35029,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34796,6 +35162,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -34929,6 +35296,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35060,6 +35428,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35187,6 +35556,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35327,6 +35697,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35462,6 +35833,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35595,6 +35967,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35728,6 +36101,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35862,6 +36236,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35915,6 +36290,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -35982,8 +36358,7 @@
                 "DTK",
                 "DVD",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36012,6 +36387,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36079,8 +36455,7 @@
                 "DTK",
                 "DVD",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36109,6 +36484,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36176,8 +36552,7 @@
                 "DTK",
                 "DVD",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36206,6 +36581,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36273,8 +36649,7 @@
                 "DTK",
                 "DVD",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36303,6 +36678,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36371,8 +36747,8 @@
                 "DPA",
                 "DTK",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB",
+                "FRF"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36401,6 +36777,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36469,8 +36846,8 @@
                 "DPA",
                 "DTK",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB",
+                "FRF"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36499,6 +36876,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36567,8 +36945,8 @@
                 "DPA",
                 "DTK",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB",
+                "FRF"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36597,6 +36975,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36665,8 +37044,8 @@
                 "DPA",
                 "DTK",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB",
+                "FRF"
             ],
             "rarity": "common",
             "rulings": [],
@@ -36695,6 +37074,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36790,6 +37170,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36885,6 +37266,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -36980,6 +37362,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37075,6 +37458,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37171,6 +37555,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37267,6 +37652,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37363,6 +37749,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37459,6 +37846,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37552,6 +37940,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37645,6 +38034,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37738,6 +38128,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -37904,6 +38295,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38037,6 +38429,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38172,6 +38565,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38312,6 +38706,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38446,6 +38841,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38570,6 +38966,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38758,6 +39155,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -38888,6 +39286,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39007,6 +39406,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39138,6 +39538,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39262,6 +39663,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39414,6 +39816,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39549,6 +39952,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39678,6 +40082,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39813,6 +40218,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -39948,6 +40354,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40088,6 +40495,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40224,6 +40632,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40348,6 +40757,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40482,6 +40892,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40517,6 +40928,7 @@
                 "CEI",
                 "DPA",
                 "DRB",
+                "FBB",
                 "LEA",
                 "LEB",
                 "M10",
@@ -40632,6 +41044,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40776,6 +41189,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -40910,6 +41324,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41045,6 +41460,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41181,6 +41597,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41321,6 +41738,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41456,6 +41874,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41594,6 +42013,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41631,6 +42051,7 @@
                 "CEI",
                 "DD2",
                 "DPA",
+                "FBB",
                 "JVC",
                 "LEA",
                 "LEB",
@@ -41754,6 +42175,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -41892,6 +42314,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -42018,6 +42441,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -42154,6 +42578,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -42292,6 +42717,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -42430,6 +42856,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -42471,6 +42898,7 @@
                 "DOM",
                 "EMA",
                 "EVG",
+                "FBB",
                 "FNM",
                 "LEA",
                 "LEB",
@@ -42508,8 +42936,8 @@
     ],
     "code": "m19",
     "meta": {
-        "date": "2018-10-13",
-        "version": "4.0.0"
+        "date": "2018-10-17",
+        "version": "4.0.2"
     },
     "mtgoCode": "m19",
     "name": "Core Set 2019",

@@ -41,5 +41,14 @@ public class AlbumView : MonoBehaviour {
 public enum LanguageMode
 {
     ENGLISH,
-    RUSSIAN
+    RUSSIAN,
+    JAPANESE,
+    KOREAN,
+    ITALIAN,
+    FRENCH,
+    GERMAN,
+    PORTUGESE,
+    CHINESE_SIMPLIFIED,
+    CHINESE_TRADITIONAL,
+    SPANISH
 }

@@ -46,7 +46,7 @@ public class CardView : MonoBehaviour {
 		else 
         if (wasUpdated&&timer<1)
         {
-            SetImageFromCacheOrURL(cardLink.uuid.ToString());
+            SetImageFromCacheOrURL(cardLink);
             //cardImageObject.gameObject.SetActive(true); Unoptimal solution
 
             timer = ConfigAgent.instance.ImageUpdateTimer;
@@ -76,15 +76,16 @@ public class CardView : MonoBehaviour {
         loadingIndicator.SetActive(false);
     }
 
-    public void SetImageFromCacheOrURL(string uuid)
+    public void SetImageFromCacheOrURL(MTGCard _card)
     {
-        string filePath = ConfigAgent.instance.imageSaveDataPath + uuid + ".png";
+        string filePath = ConfigAgent.instance.imageSaveDataPath + _card.uuid + ".png";
         bool imageCached = File.Exists(filePath);
 
         if (!imageCached)
         {
-            string URLpath = "https://api.scryfall.com/cards/" + uuid + "?format=image&version=normal";
-            StartCoroutine(SetImageFromURL(URLpath, uuid));
+            string DownloadLocation = (_card.layout == "transform" || _card.layout == "flip" || _card.layout == "split" || _card.layout == "meld") ? "multiverse/" + _card.multiverseId : _card.uuid;
+            string URLpath = "https://api.scryfall.com/cards/" + DownloadLocation + "?format=image&version=normal";
+            StartCoroutine(SetImageFromURL(URLpath, _card.uuid));
             wasUpdated = true;
         }
         else

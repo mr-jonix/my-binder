@@ -86,6 +86,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -102,6 +103,10 @@
             "manaCost": "{1}{W}",
             "multiverseId": 439658,
             "name": "Baffling End",
+            "names": [
+                "Baffling End",
+                "Dinosaur"
+            ],
             "number": "1",
             "originalText": "When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.\nWhen Baffling End leaves the battlefield, target opponent creates a 3/3 green Dinosaur creature token with trample.",
             "originalType": "Enchantment",
@@ -213,6 +218,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -374,6 +380,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -504,6 +511,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -635,6 +643,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -785,6 +794,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -925,6 +935,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1061,6 +1072,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1185,6 +1197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1325,6 +1338,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1472,6 +1486,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1609,6 +1624,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1744,6 +1760,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1878,6 +1895,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -1896,6 +1914,10 @@
             "manaCost": "{1}{W}",
             "multiverseId": 439671,
             "name": "Martyr of Dusk",
+            "names": [
+                "Martyr of Dusk",
+                "Vampire"
+            ],
             "number": "14",
             "originalText": "When Martyr of Dusk dies, create a 1/1 white Vampire creature token with lifelink.",
             "originalType": "Creature — Vampire Soldier",
@@ -2014,6 +2036,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2150,6 +2173,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2283,6 +2307,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2431,6 +2456,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2588,6 +2614,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2725,6 +2752,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -2861,6 +2889,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3024,6 +3053,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3167,6 +3197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3331,6 +3362,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3456,6 +3488,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3474,6 +3507,10 @@
             "manaCost": "{2}{W}",
             "multiverseId": 439682,
             "name": "Squire's Devotion",
+            "names": [
+                "Squire's Devotion",
+                "Vampire"
+            ],
             "number": "25",
             "originalText": "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink.\nWhen Squire's Devotion enters the battlefield, create a 1/1 white Vampire creature token with lifelink.",
             "originalType": "Enchantment — Aura",
@@ -3598,6 +3635,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3735,6 +3773,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -3875,6 +3914,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4027,6 +4067,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4182,6 +4223,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4324,6 +4366,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4452,6 +4495,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4469,6 +4513,10 @@
             "manaCost": "{3}{U}",
             "multiverseId": 439689,
             "name": "Aquatic Incursion",
+            "names": [
+                "Aquatic Incursion",
+                "Merfolk"
+            ],
             "number": "32",
             "originalText": "When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can't be the targets of spells or abilities your opponents control.)\n{3}{U}: Target Merfolk can't be blocked this turn.",
             "originalType": "Enchantment",
@@ -4587,6 +4635,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4741,6 +4790,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -4870,6 +4920,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5006,6 +5057,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5140,6 +5192,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5295,6 +5348,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5431,6 +5485,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5448,6 +5503,10 @@
             "manaCost": "{2}{U}",
             "multiverseId": 439696,
             "name": "Hornswoggle",
+            "names": [
+                "Hornswoggle",
+                "Treasure"
+            ],
             "number": "39",
             "originalText": "Counter target creature spell. You create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Instant",
@@ -5555,6 +5614,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5704,6 +5764,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5839,6 +5900,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -5999,6 +6061,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6135,6 +6198,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6276,6 +6340,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6430,6 +6495,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6577,6 +6643,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6713,6 +6780,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6853,6 +6921,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -6871,6 +6940,10 @@
             "manaCost": "{2}{U}",
             "multiverseId": 439706,
             "name": "Sailor of Means",
+            "names": [
+                "Sailor of Means",
+                "Treasure"
+            ],
             "number": "49",
             "originalText": "When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Creature — Human Pirate",
@@ -6990,6 +7063,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7123,6 +7197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7263,6 +7338,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7415,6 +7491,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7552,6 +7629,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7696,6 +7774,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7864,6 +7943,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -7988,6 +8068,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8142,6 +8223,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8267,6 +8349,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8417,6 +8500,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8554,6 +8638,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8689,6 +8774,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8822,6 +8908,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -8957,6 +9044,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9098,6 +9186,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9218,6 +9307,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9380,6 +9470,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9510,6 +9601,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9645,6 +9737,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9809,6 +9902,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -9945,6 +10039,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10075,6 +10170,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10208,6 +10304,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10362,6 +10459,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10499,6 +10597,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10635,6 +10734,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10766,6 +10866,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -10895,6 +10996,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11062,6 +11164,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11202,6 +11305,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11346,6 +11450,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11363,6 +11468,10 @@
             "manaCost": "{3}{B}",
             "multiverseId": 439738,
             "name": "Pitiless Plunderer",
+            "names": [
+                "Pitiless Plunderer",
+                "Treasure"
+            ],
             "number": "81",
             "originalText": "Whenever another creature you control dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Creature — Human Pirate",
@@ -11486,6 +11595,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11621,6 +11731,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11751,6 +11862,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -11885,6 +11997,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12014,6 +12127,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12149,6 +12263,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12274,6 +12389,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12454,6 +12570,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12579,6 +12696,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12734,6 +12852,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -12870,6 +12989,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13025,6 +13145,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13156,6 +13277,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13173,6 +13295,10 @@
             "manaCost": "{6}{R}",
             "multiverseId": 439751,
             "name": "Brass's Bounty",
+            "names": [
+                "Brass's Bounty",
+                "Treasure"
+            ],
             "number": "94",
             "originalText": "For each land you control, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Sorcery",
@@ -13288,6 +13414,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13306,6 +13433,10 @@
             "manaCost": "{3}{R}",
             "multiverseId": 439752,
             "name": "Brazen Freebooter",
+            "names": [
+                "Brazen Freebooter",
+                "Treasure"
+            ],
             "number": "95",
             "originalText": "When Brazen Freebooter enters the battlefield, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Creature — Human Pirate",
@@ -13424,6 +13555,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13555,6 +13687,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13698,6 +13831,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13827,6 +13961,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -13971,6 +14106,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14138,6 +14274,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14262,6 +14399,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14391,6 +14529,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14535,6 +14674,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14683,6 +14823,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14819,6 +14960,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -14955,6 +15097,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15088,6 +15231,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15223,6 +15367,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15240,6 +15385,10 @@
             "manaCost": "{3}{R}",
             "multiverseId": 439766,
             "name": "Pirate's Pillage",
+            "names": [
+                "Pirate's Pillage",
+                "Treasure"
+            ],
             "number": "109",
             "originalText": "As an additional cost to cast Pirate's Pillage, discard a card.\nDraw two cards and create two colorless Treasure artifact tokens with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Sorcery",
@@ -15353,6 +15502,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15481,6 +15631,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15497,6 +15648,10 @@
             "manaCost": "{2}{R}{R}",
             "multiverseId": 439768,
             "name": "Rekindling Phoenix",
+            "names": [
+                "Rekindling Phoenix",
+                "Elemental"
+            ],
             "number": "111",
             "originalText": "Flying\nWhen Rekindling Phoenix dies, create a 0/1 red Elemental creature token with \"At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn.\"",
             "originalType": "Creature — Phoenix",
@@ -15613,6 +15768,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15750,6 +15906,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15880,6 +16037,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -15913,6 +16071,7 @@
                 "CED",
                 "CEI",
                 "DKM",
+                "FBB",
                 "ICE",
                 "KTK",
                 "LEA",
@@ -16038,6 +16197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16190,6 +16350,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16330,6 +16491,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16498,6 +16660,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16633,6 +16796,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16758,6 +16922,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16880,6 +17045,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -16896,6 +17062,10 @@
             "manaCost": "{1}{R}",
             "multiverseId": 439778,
             "name": "Tilonalli's Summoner",
+            "names": [
+                "Tilonalli's Summoner",
+                "Elemental"
+            ],
             "number": "121",
             "originalText": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 red Elemental creature tokens that are tapped and attacking. At the beginning of the next end step, exile those tokens unless you have the city's blessing.",
             "originalType": "Creature — Human Shaman",
@@ -17052,6 +17222,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17190,6 +17361,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17333,6 +17505,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17488,6 +17661,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17626,6 +17800,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17643,6 +17818,10 @@
             "manaCost": "{3}{G}{G}",
             "multiverseId": 439783,
             "name": "Crested Herdcaller",
+            "names": [
+                "Crested Herdcaller",
+                "Dinosaur"
+            ],
             "number": "126",
             "originalText": "Trample\nWhen Crested Herdcaller enters the battlefield, create a 3/3 green Dinosaur creature token with trample.",
             "originalType": "Creature — Dinosaur",
@@ -17760,6 +17939,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -17889,6 +18069,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18033,6 +18214,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18173,6 +18355,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18329,6 +18512,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18470,6 +18654,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18611,6 +18796,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18760,6 +18946,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -18896,6 +19083,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19021,6 +19209,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19173,6 +19362,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19191,6 +19381,10 @@
             "manaCost": "{2}{G}",
             "multiverseId": 439794,
             "name": "Jungleborn Pioneer",
+            "names": [
+                "Jungleborn Pioneer",
+                "Merfolk"
+            ],
             "number": "137",
             "originalText": "When Jungleborn Pioneer enters the battlefield, create a 1/1 blue Merfolk creature token with hexproof. (It can't be the target of spells or abilities your opponents control.)",
             "originalType": "Creature — Merfolk Scout",
@@ -19309,6 +19503,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19450,6 +19645,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19591,6 +19787,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19726,6 +19923,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -19744,6 +19942,10 @@
             "manaCost": "{3}{G}{G}",
             "multiverseId": 439798,
             "name": "Overgrown Armasaur",
+            "names": [
+                "Overgrown Armasaur",
+                "Saproling"
+            ],
             "number": "141",
             "originalText": "Enrage — Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling creature token.",
             "originalType": "Creature — Dinosaur",
@@ -19859,6 +20061,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20006,6 +20209,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20150,6 +20354,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20305,6 +20510,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20435,6 +20641,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20559,6 +20766,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20575,6 +20783,10 @@
             "manaCost": "{4}{G}",
             "multiverseId": 439804,
             "name": "Tendershoot Dryad",
+            "names": [
+                "Tendershoot Dryad",
+                "Saproling"
+            ],
             "number": "147",
             "originalText": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAt the beginning of each upkeep, create a 1/1 green Saproling creature token.\nSaprolings you control get +2/+2 as long as you have the city's blessing.",
             "originalType": "Creature — Dryad",
@@ -20726,6 +20938,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20859,6 +21072,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -20983,6 +21197,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21146,6 +21361,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21273,6 +21489,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21427,6 +21644,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21562,6 +21780,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21694,6 +21913,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21860,6 +22080,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -21997,6 +22218,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22013,6 +22235,10 @@
             "manaCost": "{2}{W}{B}",
             "multiverseId": 439814,
             "name": "Elenda, the Dusk Rose",
+            "names": [
+                "Elenda, the Dusk Rose",
+                "Vampire"
+            ],
             "number": "157",
             "originalText": "Lifelink\nWhenever another creature dies, put a +1/+1 counter on Elenda, the Dusk Rose.\nWhen Elenda dies, create X 1/1 white Vampire creature tokens with lifelink, where X is Elenda's power.",
             "originalType": "Legendary Creature — Vampire Knight",
@@ -22135,6 +22361,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -22177,7 +22404,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "8e7554bc-8583-4059-8895-c3845bc27ae3"
+            "uuid": "8e7554bc-8583-4059-8895-c3845bc27ae1"
         },
         {
             "artist": "Titus Lunter & Titus Lunter",
@@ -22276,6 +22503,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -22319,7 +22547,7 @@
             "types": [
                 "Enchantment"
             ],
-            "uuid": "8e7554bc-8583-4059-8895-c3845bc27ae3"
+            "uuid": "8e7554bc-8583-4059-8895-c3845bc27ae0"
         },
         {
             "artist": "Chris Rahn",
@@ -22408,6 +22636,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22425,6 +22654,10 @@
             "manaCost": "{2}{G}{W}",
             "multiverseId": 439817,
             "name": "Huatli, Radiant Champion",
+            "names": [
+                "Huatli, Radiant Champion",
+                "Huatli, Radiant Champion Emblem"
+            ],
             "number": "159",
             "originalText": "+1: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.\n−1: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.\n−8: You get an emblem with \"Whenever a creature enters the battlefield under your control, you may draw a card.\"",
             "originalType": "Legendary Planeswalker — Huatli",
@@ -22550,6 +22783,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -22604,7 +22838,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "d81c4b3f-81c2-403b-8a5d-c9415f73a1f9"
+            "uuid": "d81c4b3f-81c2-403b-8a5d-c9415f73a1f1"
         },
         {
             "artist": "Deruchenko Alexander",
@@ -22703,6 +22937,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -22760,7 +22995,7 @@
             "types": [
                 "Enchantment"
             ],
-            "uuid": "d81c4b3f-81c2-403b-8a5d-c9415f73a1f9"
+            "uuid": "d81c4b3f-81c2-403b-8a5d-c9415f73a1f0"
         },
         {
             "artist": "Matt Stewart",
@@ -22860,6 +23095,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -22985,6 +23221,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23133,6 +23370,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23274,6 +23512,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -23402,6 +23641,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -23484,7 +23724,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "66d9d524-3611-48d9-86c9-48e509e8ae70"
+            "uuid": "66d9d524-3611-48d9-86c9-48e509e8ae71"
         },
         {
             "artist": "Victor Adame Minguez & Victor Adame Minguez",
@@ -23573,6 +23813,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -23752,6 +23993,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -23810,7 +24052,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "1d94ff37-f04e-48ee-8253-d62ab07f0632"
+            "uuid": "1d94ff37-f04e-48ee-8253-d62ab07f0631"
         },
         {
             "artist": "Bastien L. Deharme & Bastien L. Deharme",
@@ -23909,6 +24151,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -23968,7 +24211,7 @@
             "types": [
                 "Enchantment"
             ],
-            "uuid": "1d94ff37-f04e-48ee-8253-d62ab07f0632"
+            "uuid": "1d94ff37-f04e-48ee-8253-d62ab07f0630"
         },
         {
             "artist": "Izzy",
@@ -24068,6 +24311,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24239,6 +24483,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24380,6 +24625,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24510,6 +24756,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24675,6 +24922,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24820,6 +25068,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -24953,6 +25202,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -24970,8 +25220,8 @@
             "multiverseId": 439835,
             "name": "Vault of Catlacan",
             "names": [
-                "Storm the Vault",
-                "Vault of Catlacan"
+                "Storm the Vault // Vault of Catlacan",
+                "Treasure"
             ],
             "number": "173",
             "originalText": "Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\r\nAt the beginning of your end step, if you control five or more artifacts, transform Storm the Vault.",
@@ -25008,7 +25258,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "c16ba84e-a0cc-4c6c-9b80-713247b8fef9"
+            "uuid": "c16ba84e-a0cc-4c6c-9b80-713247b8fef1"
         },
         {
             "artist": "Victor Adame Minguez",
@@ -25097,6 +25347,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -25115,8 +25366,8 @@
             "multiverseId": 439834,
             "name": "Storm the Vault",
             "names": [
-                "Storm the Vault",
-                "Vault of Catlacan"
+                "Storm the Vault // Vault of Catlacan",
+                "Treasure"
             ],
             "number": "173",
             "originalText": "Whenever one or more creatures you control deal combat damage to a player, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"\r\nAt the beginning of your end step, if you control five or more artifacts, transform Storm the Vault.",
@@ -25153,7 +25404,7 @@
             "types": [
                 "Enchantment"
             ],
-            "uuid": "c16ba84e-a0cc-4c6c-9b80-713247b8fef9"
+            "uuid": "c16ba84e-a0cc-4c6c-9b80-713247b8fef0"
         },
         {
             "artist": "Jaime Jones",
@@ -25244,6 +25495,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25386,6 +25638,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25526,6 +25779,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -25671,6 +25925,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -25734,7 +25989,7 @@
             "types": [
                 "Artifact"
             ],
-            "uuid": "303d51ab-b9c4-4647-950f-291daabe7b81"
+            "uuid": "303d51ab-b9c4-4647-950f-291daabe7b80"
         },
         {
             "artist": "Sara Winters",
@@ -25817,6 +26072,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25952,6 +26208,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -25970,6 +26227,10 @@
             "manaCost": "{2}",
             "multiverseId": 439841,
             "name": "Gleaming Barrier",
+            "names": [
+                "Gleaming Barrier",
+                "Treasure"
+            ],
             "number": "178",
             "originalText": "Defender\nWhen Gleaming Barrier dies, create a colorless Treasure artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color to your mana pool.\"",
             "originalType": "Artifact Creature — Wall",
@@ -26083,6 +26344,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -26099,8 +26361,8 @@
             "multiverseId": 439843,
             "name": "Gold-Forge Garrison",
             "names": [
-                "Golden Guardian",
-                "Gold-Forge Garrison"
+                "Golden Guardian // Gold-Forge Garrison",
+                "Golem"
             ],
             "number": "179",
             "originalText": "Defender\r\n{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.",
@@ -26135,7 +26397,7 @@
             "types": [
                 "Land"
             ],
-            "uuid": "397ba02d-f347-46f7-b028-dd4ba55faa2f"
+            "uuid": "397ba02d-f347-46f7-b028-dd4ba55faa21"
         },
         {
             "artist": "Svetlin Velinov & Svetlin Velinov",
@@ -26218,6 +26480,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "transform",
             "legalities": {
                 "1v1": "Legal",
@@ -26235,8 +26498,8 @@
             "multiverseId": 439842,
             "name": "Golden Guardian",
             "names": [
-                "Golden Guardian",
-                "Gold-Forge Garrison"
+                "Golden Guardian // Gold-Forge Garrison",
+                "Golem"
             ],
             "number": "179",
             "originalText": "Defender\r\n{2}: Golden Guardian fights another target creature you control. When Golden Guardian dies this turn, return it to the battlefield transformed under your control.",
@@ -26276,7 +26539,7 @@
                 "Artifact",
                 "Creature"
             ],
-            "uuid": "397ba02d-f347-46f7-b028-dd4ba55faa2f"
+            "uuid": "397ba02d-f347-46f7-b028-dd4ba55faa20"
         },
         {
             "artist": "Kieran Yanner",
@@ -26359,6 +26622,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26481,6 +26745,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26633,6 +26898,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26768,6 +27034,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -26904,6 +27171,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27023,6 +27291,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27173,6 +27442,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27331,6 +27601,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27465,6 +27736,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27597,6 +27869,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27730,6 +28003,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27865,6 +28139,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27918,6 +28193,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -27985,8 +28261,7 @@
                 "DTK",
                 "DVD",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB"
             ],
             "rarity": "common",
             "rulings": [],
@@ -28015,6 +28290,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28083,8 +28359,8 @@
                 "DPA",
                 "DTK",
                 "E01",
-                "FRF",
-                "GK1"
+                "FBB",
+                "FRF"
             ],
             "rarity": "common",
             "rulings": [],
@@ -28113,6 +28389,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28208,6 +28485,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28304,6 +28582,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28470,6 +28749,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28487,6 +28767,10 @@
             "manaCost": "{4}{B}{B}",
             "multiverseId": 441891,
             "name": "Vraska, Scheming Gorgon",
+            "names": [
+                "Vraska, Scheming Gorgon",
+                "Vraska's Scorn"
+            ],
             "number": "197",
             "originalText": "+2: Creatures you control get +1/+0 until end of turn.\n−3: Destroy target creature.\n−10: Until end of turn, creatures you control gain deathtouch and \"Whenever this creature deals damage to an opponent, that player loses the game.\"",
             "originalType": "Legendary Planeswalker — Vraska",
@@ -28614,6 +28898,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28750,6 +29035,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28874,6 +29160,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -28890,6 +29177,10 @@
             "manaCost": "{2}{B}{B}",
             "multiverseId": 441894,
             "name": "Vraska's Scorn",
+            "names": [
+                "Vraska, Scheming Gorgon",
+                "Vraska's Scorn"
+            ],
             "number": "200",
             "originalText": "Target opponent loses 4 life. You may search your library and/or graveyard for a card named Vraska, Scheming Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
             "originalType": "Sorcery",
@@ -28995,6 +29286,7 @@
             "frameVersion": "2015",
             "hasFoil": true,
             "hasNonFoil": false,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29012,6 +29304,10 @@
             "manaCost": "{4}{B}{R}",
             "multiverseId": 441895,
             "name": "Angrath, Minotaur Pirate",
+            "names": [
+                "Angrath, Minotaur Pirate",
+                "Angrath's Fury"
+            ],
             "number": "201",
             "originalText": "+2: Angrath, Minotaur Pirate deals 1 damage to target opponent and each creature that player controls.\n−3: Return target Pirate card from your graveyard to the battlefield.\n−11: Destroy all creatures target opponent controls. Angrath, Minotaur Pirate deals damage to that player equal to their total power.",
             "originalType": "Legendary Planeswalker — Angrath",
@@ -29151,6 +29447,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29276,6 +29573,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29403,6 +29701,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29419,6 +29718,10 @@
             "manaCost": "{3}{B}{R}",
             "multiverseId": 441898,
             "name": "Angrath's Fury",
+            "names": [
+                "Angrath, Minotaur Pirate",
+                "Angrath's Fury"
+            ],
             "number": "204",
             "originalText": "Destroy target creature. Angrath's Fury deals 3 damage to target player. You may search your library and/or graveyard for a card named Angrath, Minotaur Pirate, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
             "originalType": "Sorcery",
@@ -29541,6 +29844,7 @@
             "frameVersion": "2015",
             "hasFoil": false,
             "hasNonFoil": true,
+            "isReserved": false,
             "layout": "normal",
             "legalities": {
                 "1v1": "Legal",
@@ -29584,8 +29888,8 @@
     ],
     "code": "rix",
     "meta": {
-        "date": "2018-10-13",
-        "version": "4.0.0"
+        "date": "2018-10-17",
+        "version": "4.0.2"
     },
     "mtgoCode": "rix",
     "name": "Rivals of Ixalan",
