@@ -10,8 +10,9 @@ namespace MyBinder
     {
         public Dictionary<string, MTGCollectionRecord> inventory;
 
-        public void UpdateQuantity(MTGCard _card, string _multiverseid, CardTreatment _treatment, int _amount)
+        public void UpdateQuantity(MTGCard _card, CardTreatment _treatment, int _amount)
         {
+            var _multiverseid = _card.multiverseId.ToString();
             MTGCollectionRecord _record = null;
             if (inventory.ContainsKey(_card.name))
             {

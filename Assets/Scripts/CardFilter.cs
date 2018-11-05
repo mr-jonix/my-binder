@@ -1,9 +1,13 @@
-﻿namespace MyBinder
+﻿using System.Collections.Generic;
+
+namespace MyBinder
 {
 
     public class CardFilter
     {
         public string name = string.Empty;
+        public List<string> setCodes;
+        public List<MTGLegality> legalities;
         public float convertedManaCost = -17f;
         public bool isWhite = false;
         public bool isBlue = false;

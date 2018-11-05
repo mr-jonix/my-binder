@@ -45,7 +45,7 @@ public class CollectionAgent : MonoBehaviour {
     {
         if (collection != null)
         {
-            collection.UpdateQuantity(_card, _multiverseid, _treatment, _amount);
+            collection.UpdateQuantity(_card, _treatment, _amount);
         }
     }
     
