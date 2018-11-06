@@ -1,0 +1,14 @@
+﻿public enum LanguageMode
+{
+    ENGLISH,
+    RUSSIAN,
+    JAPANESE,
+    KOREAN,
+    ITALIAN,
+    FRENCH,
+    GERMAN,
+    PORTUGESE,
+    CHINESE_SIMPLIFIED,
+    CHINESE_TRADITIONAL,
+    SPANISH
+}

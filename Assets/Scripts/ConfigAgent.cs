@@ -27,7 +27,7 @@ public class ConfigAgent : MonoBehaviour {
     }
 
     public int AutoSaveInterval = 1; // in minutes
-    public int AutoSaveTimer = 3000;
+    public int AutoSaveTimer = 3600;
     public int SearchResultsLimit = 100;
     public string imageSaveDataPath = "D:/temp/images//";
     public int ImageUpdateTimer = 10;
@@ -39,10 +39,11 @@ public class ConfigAgent : MonoBehaviour {
         if (AutoSaveTimer-- == 0)
         {
             //Save function here
+            CollectionAgent.instance.SaveCollection();
             Debug.Log("Save performed at " + Time.time);
 
             //Reset timer
-            AutoSaveTimer = AutoSaveInterval * 3000;
+            AutoSaveTimer = AutoSaveInterval * 3600;
         }
 
     }

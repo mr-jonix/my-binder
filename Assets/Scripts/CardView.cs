@@ -3,53 +3,102 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using TMPro;
+using UnityEngine.EventSystems;
 using System;
+using MyBinder;
+using UnityEngine.UI;
 
-[Serializable]
-public class CardViewHeaderColor
+public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
 {
-    [SerializeField]
-    public Color headerColor = new Color(0f, 0f, 0f);
-    [SerializeField]
-    public Color headerTextColor = new Color(1f, 1f, 1f);
-}
-
-public class CardView : MonoBehaviour {
-
+    public AlbumView albumView;
+    public Animator QuantityAnimator;
     public MTGCard cardLink;
     public Sprite defaultImage;
-    public UnityEngine.UI.RawImage cardImageObject;
+    public RawImage cardImageObject;
     public bool wasUpdated = true;
     public GameObject loadingIndicator;
-    public int timer = 30;
+    //public int timer = 30;
     public CardViewHeaderColor[] colorPresets = new CardViewHeaderColor[7];
     public TextMeshProUGUI headerText;
-    public UnityEngine.UI.Image headerBG;
+    public Image headerBG;
+
+    public bool quantitiesUpdated = true;
+    public Image quantityBaseImage;
+    public TextMeshProUGUI totalQuantityTextObject;
+    public TextMeshProUGUI regularQuantityTextObject;
+    public TextMeshProUGUI foilQuantityTextObject;
 
 
 	// Use this for initialization
 	void Start () {
         cardImageObject.texture = new Texture2D(488,680,TextureFormat.ARGB32,false);
-        timer = ConfigAgent.instance.ImageUpdateTimer;
+        //timer = ConfigAgent.instance.ImageUpdateTimer;
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        if (timer>=1&&wasUpdated) timer--;
+    private void Update()
+    {
+        if (wasUpdated)
+        {
+            UpdateCardView();
+        }
+        if (quantitiesUpdated)
+        {
+            UpdateQuantities();
+        }
+    }
+
+    private void UpdateQuantities()
+    {
+        if (cardLink != null)
+        {
+            MTGQuantities _record = CollectionAgent.instance.RetrieveQuantities(cardLink, ConfigAgent.instance.languageMode);
+            totalQuantityTextObject.text = _record.total.ToString();
+            regularQuantityTextObject.text = _record.regularCurrentLanguage.ToString() + "/" + _record.regularTotal.ToString();
+            foilQuantityTextObject.text = _record.foilCurrentLanguage.ToString() + "/" + _record.foilTotal.ToString();
+
+            if (_record.total == 0)
+            {
+                quantityBaseImage.color = colorPresets[3].headerColor;
+            }
+            else
+            {
+                if (_record.regularCurrentLanguage > 0)
+                {
+                    quantityBaseImage.color = colorPresets[4].headerColor;
+                }
+                else
+                {
+                    quantityBaseImage.color = colorPresets[6].headerColor;
+                }
+            }
+
+            //Debug.Log("Quantities Updated!");
+        }
+        quantitiesUpdated = false;
+    }
+
+    // Update is called once per frame
+    void UpdateCardView() {
+
+        //if (timer>=1&&wasUpdated) timer--;
 
         if (cardLink == null&&wasUpdated)
         {
             cardImageObject.texture = defaultImage.texture;
+            totalQuantityTextObject.text = string.Empty;
+            regularQuantityTextObject.text = string.Empty;
+            foilQuantityTextObject.text = string.Empty;
             wasUpdated = false;
         }
 		else 
-        if (wasUpdated&&timer<1)
+        if (wasUpdated)
         {
             SetImageFromCacheOrURL(cardLink);
+            wasUpdated = false;
+
             //cardImageObject.gameObject.SetActive(true); Unoptimal solution
 
-            timer = ConfigAgent.instance.ImageUpdateTimer;
+            //timer = ConfigAgent.instance.ImageUpdateTimer;
         }
 	}
 
@@ -96,24 +145,30 @@ public class CardView : MonoBehaviour {
         }
     }
 
-    public void SetCardLink(MTGCard card)
+    public void UpdateHeader()
     {
-        cardLink = card;
         string headerName = string.Empty;
-        if (card.foreignData.Count > 0)
+        if (cardLink.foreignData.Count > 0)
         {
-            headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? card.name : card.foreignData.Find(_card => _card.language.Contains("Russian")).name;
+            headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Russian")).name;
         }
         else
         {
-            headerName = card.name;
+            headerName = cardLink.name;
         }
-        headerText.text = headerName +" "+MTGFormatter.FormatManaCost(card.manaCost);
-        headerText.color = GetHeaderTextColor(card);
-        headerBG.color = GetHeaderColor(card);
+        headerText.text = headerName + " " + MTGFormatter.FormatManaCost(cardLink.manaCost);
+        headerText.color = GetHeaderTextColor(cardLink);
+        headerBG.color = GetHeaderColor(cardLink);
+    }
+
+    public void SetCardLink(MTGCard card)
+    {
+        cardLink = card;
+        UpdateHeader();
         //cardImageObject.gameObject.SetActive(false); Unoptimal solution
         loadingIndicator.SetActive(true);
         wasUpdated = true;
+        quantitiesUpdated = true;
     }
 
     private Color GetHeaderTextColor(MTGCard card)
@@ -151,5 +206,30 @@ public class CardView : MonoBehaviour {
                                }
 
         return colorPresets[6].headerColor;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        QuantityAnimator.SetTrigger("Toggle");
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        QuantityAnimator.SetTrigger("Toggle");
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        int amount = (eventData.button == PointerEventData.InputButton.Left) ? 1 : -1;
+        CollectionAgent.instance.UpdateQuantities(cardLink, ConfigAgent.instance.languageMode, CardTreatment.REGULAR, amount);
+        if (albumView != null)
+        {
+            albumView.UpdateQuantities();
+        }
+        //quantitiesUpdated = true;
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
     }
 }

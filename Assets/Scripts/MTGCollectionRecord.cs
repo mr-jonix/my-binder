@@ -7,6 +7,6 @@ namespace MyBinder
     public class MTGCollectionRecord
     {
         public string oracleName;
-        public Dictionary<string, MTGMultiverseEntry> entries;
+        public Dictionary<string, MTGMultiverseEntry> entries = new Dictionary<string, MTGMultiverseEntry>();
     }
 }
