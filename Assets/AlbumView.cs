@@ -6,6 +6,8 @@ public class AlbumView : MonoBehaviour
 {
 
     public List<CardView> cardViews;
+    public List<MTGCard> cardList;
+    public int page = 0;
 
     public void UpdateQuantities()
     {
@@ -23,21 +25,52 @@ public class AlbumView : MonoBehaviour
         }
     }
 
-    public void UpdateCardViews(List<MTGCard> cardList)
+    public void UpdateCardViews(List<MTGCard> _cardList)
     {
-
+        page = 0;
+        cardList = _cardList;
         for (int i = 0; i < cardViews.Count; i++)
         {
-            if (i < cardList.Count)
+            if (page+i < cardList.Count)
             {
                 cardViews[i].gameObject.SetActive(true);
-                cardViews[i].SetCardLink(cardList[i]);
+                cardViews[i].SetCardLink(cardList[page*18+i]);
             }
             else
             {
                 cardViews[i].gameObject.SetActive(false);
             }
         }
+
+    }
+
+    public void UpdateCardViews()
+    {
+        for (int i = 0; i < cardViews.Count; i++)
+        {
+            if (page+i < cardList.Count)
+            {
+                cardViews[i].gameObject.SetActive(true);
+                cardViews[i].SetCardLink(cardList[page*18+i]);
+            }
+            else
+            {
+                cardViews[i].gameObject.SetActive(false);
+            }
+        }
+
+    }
+
+    public void NextPage()
+    {
+        if (page + 1 < cardList.Count / 18) page++;
+        UpdateCardViews();
+    }
+
+    public void PrevPage()
+    {
+        if (page > 0) page--;
+        UpdateCardViews();
 
     }
 }
