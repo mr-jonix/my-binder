@@ -82,7 +82,6 @@ namespace MyBinder
             {
                 MTGCollectionRecord record = null;
                 inventory.TryGetValue(cardLink.name, out record);
-                Debug.Log(record.oracleName);
                 foreach (var mEntry in record.entries)
                 {
                     foreach (var lEntry in mEntry.Value.localizedEntries)

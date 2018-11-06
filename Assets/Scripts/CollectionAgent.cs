@@ -25,6 +25,14 @@ public class CollectionAgent : MonoBehaviour {
         }
     }
 
+    private void OnApplicationQuit()
+    {
+        if (Collection != null)
+        {
+            SaveCollection();
+        }
+    }
+
     private void Awake()
     {
         //Check if instance already exists
