@@ -7,7 +7,7 @@ namespace MyBinder
     {
         public string name = string.Empty;
         public List<string> setCodes;
-        public List<MTGLegality> legalities;
+        public List<LegalityObject> legalities;
         public float convertedManaCost = -17f;
         public bool isWhite = false;
         public bool isBlue = false;

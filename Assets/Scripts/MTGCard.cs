@@ -4,34 +4,42 @@ using System;
 public class MTGCard: CardPrototype
 {
     public float convertedManaCost;
+    public string duelDeck;
+    public float faceConvertedManaCost;
     public string flavorText;
-    public bool isFoilOnly=false;
-    public List<ForeignCard> foreignData;
+    public List<ForeignDataObject> foreignData;
+    public string frameEffect;
     public string frameVersion;
-    public bool hasFoil=false;
-    public bool hasNonFoil=false;
-    public string layout = "normal";
-    public MTGLegality legalities;
-    public string manaCost = String.Empty;
+    public bool hasFoil = true;
+    public bool hasNonFoil = true;
+    public bool isAlternative = false;
+    public bool isFoilOnly = false;
+    public bool isOnlineOnly = false;
+    public bool isOversized = false;
+    public bool isReserved = false;
+    public bool isTimeshifted = false;
+    public string layout;
+    public LegalityObject legalities;
+    public string manaCost;
     public int multiverseId;
     public List<string> names;
     public string originalText;
     public string originalType;
     public List<string> printings;
     public string rarity;
-    public bool isReserved = false;
-    //public List<MTGRuling> rulings
+    public List<RulingObject> rulings;
+    public bool starter;
     public List<string> subtypes;
     public List<string> supertypes;
     public List<string> types;
+    public List<string> variations;
     public string setCode;
-
 
     public bool ContainsForeign(string foreignName, bool onlyRussian)
     {
         if (onlyRussian)
         {
-            foreach (ForeignCard f in foreignData)
+            foreach (ForeignDataObject f in foreignData)
             {
                 if (f.name.ToLower().Contains(foreignName) && f.language == "Russian")
                 {
@@ -41,7 +49,7 @@ public class MTGCard: CardPrototype
         }
         else
         {
-            foreach (ForeignCard f in foreignData)
+            foreach (ForeignDataObject f in foreignData)
             {
                 if (f.name.ToLower().Contains(foreignName))
                 {

@@ -14,12 +14,7 @@ public class PopulateWithSets : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        DB = new MTGDatabase();
-        JSONSource = Resources.LoadAll<TextAsset>("JSON");
-        foreach (TextAsset json in JSONSource)
-        {
-            DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
-        }
+        DB = DBAgent.instance.DB;
         gameObject.GetComponent<Dropdown>().AddOptions(DB.GetListOfSetNames());
         SendSetChange(0);
 	}
@@ -35,7 +30,6 @@ public class PopulateWithSets : MonoBehaviour {
         {
             SearchField._mtgCardSet = DB.sets[setIndex];
             cardViewObject.cardLink = DB.sets[setIndex].cards[0];
-            //cardViewObject.SetImageFromCacheOrURL(cardViewObject.cardLink.multiverseId.ToString());
             SearchField.DoSearchAndUpdate();
         }
     }

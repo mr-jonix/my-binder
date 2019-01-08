@@ -12,34 +12,35 @@ namespace MyBinder
 
         public void UpdateQuantity(MTGCard _card, LanguageMode _languageMode, CardTreatment _treatment, int _amount)
         {
-            var _multiverseid = _card.multiverseId.ToString();
+            var _name = _card.names.Count>1 ? _card.names[0] : _card.name;
+            var _scryfallid = _card.scryfallId;
             MTGCollectionRecord _record = null;
-            if (inventory.ContainsKey(_card.name))
+            if (inventory.ContainsKey(_name))
             {
-                inventory.TryGetValue(_card.name, out _record);
+                inventory.TryGetValue(_name, out _record);
             }
             else
             {
                 _record = new MTGCollectionRecord()
                 {
-                    oracleName = _card.name
+                    oracleName = _name
                 };
-                inventory.Add(_card.name, _record);
+                inventory.Add(_name, _record);
             }
 
             MTGMultiverseEntry _entry = null;
-            if (_record.entries.ContainsKey(_multiverseid))
+            if (_record.entries.ContainsKey(_scryfallid))
             {
-                _record.entries.TryGetValue(_multiverseid, out _entry);
+                _record.entries.TryGetValue(_scryfallid, out _entry);
             }
             else
             {
                 _entry = new MTGMultiverseEntry()
                 {
-                    multiverseId = _multiverseid,
+                    scryfallid = _scryfallid,
                     localizedEntries = new Dictionary<LanguageMode, MTGLocalizedEntry>()
                 };
-                _record.entries.Add(_multiverseid, _entry);
+                _record.entries.Add(_scryfallid, _entry);
             }
 
             MTGLocalizedEntry _localizedEntry = null;
@@ -78,10 +79,12 @@ namespace MyBinder
         internal MTGQuantities RetrieveQuantities(MTGCard cardLink, LanguageMode languageMode)
         {
             var result = new MTGQuantities();
-            if (inventory.ContainsKey(cardLink.name))
+            var _name = cardLink.names.Count > 1 ? cardLink.names[0] : cardLink.name;
+
+            if (inventory.ContainsKey(_name))
             {
                 MTGCollectionRecord record = null;
-                inventory.TryGetValue(cardLink.name, out record);
+                inventory.TryGetValue(_name, out record);
                 foreach (var mEntry in record.entries)
                 {
                     foreach (var lEntry in mEntry.Value.localizedEntries)
@@ -89,7 +92,7 @@ namespace MyBinder
                         result.total += lEntry.Value.regularQuantity;
                         result.total += lEntry.Value.foilQuantity;
                         result.total += lEntry.Value.promoQuantity;
-                        if (mEntry.Value.multiverseId == cardLink.multiverseId.ToString())
+                        if (mEntry.Value.scryfallid == cardLink.scryfallId.ToString())
                         {
                             result.foilTotal += lEntry.Value.foilQuantity;
                             result.promoTotal += lEntry.Value.promoQuantity;

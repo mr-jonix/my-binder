@@ -6,11 +6,9 @@ using MyBinder;
 
 public class SimpleSearchField : MonoBehaviour
 {
-    public bool _allSets = true;
-    public SearchEngine _searchEngine;
+    public bool _allSets = false;
     public InputField _inputField;
     public InputField _cmcInputField;
-    public TextMeshProUGUI _text;
     public MTGDatabase _DB;
     public MTGSet _mtgCardSet;
     public TextAsset _jsonSource;
@@ -34,22 +32,12 @@ public class SimpleSearchField : MonoBehaviour
 
     void Start()
     {
-        //string json = _jsonSource.text;
-        //_mtgCardSet = JsonUtility.FromJson<MTGSet>(json);
-        //DoSearchAndUpdate();
-        if (_allSets)
-        {
-            var JSONSource = Resources.LoadAll<TextAsset>("JSON");
-            foreach (TextAsset json in JSONSource)
-            {
-                _DB.AddSet(JsonUtility.FromJson<MTGSet>(json.text));
-            }
-        }
+        DoSearchAndUpdate();
     }
 
     public void DoSearchAndUpdate()
     {
-        if (_searchEngine != null && _inputField != null && _text != null && _mtgCardSet != null)
+        if (SearchAgent.instance != null && _inputField != null)
         {
             CardFilter myFilter = new CardFilter()
             {
@@ -74,11 +62,8 @@ public class SimpleSearchField : MonoBehaviour
             if (_modeAnd.isOn) myFilter.filterMode = MyBinder.FilterMode.AND;
             if (_modeOr.isOn) myFilter.filterMode = MyBinder.FilterMode.OR;
 
-            _searchEngine.SearchFooAdv(myFilter, DBAgent.instance.GetCardsFromSets(DBAgent.instance.DB.sets), _text);
-        }
-        else
-        {
-            print("Not everything is assigned, cannot search!!!");
+            SearchAgent.instance.filter = myFilter;
+            SearchAgent.instance.isUpdated = true;
         }
     }
 

@@ -4,15 +4,16 @@ using System;
 [Serializable]
 public class MTGSet : CardSet
 {
-    public string code;
-    //public MTGJSONMeta meta;
-    public string mtgoCode;
-    public bool onlineOnly = false;
-    public string releaseDate;
-    public List<MTGToken> tokens;
-    public string border;
-    public string type;
+    public int baseSetSize;
     public string block;
-    //public SetLanguages translations; - deprecated?
-
+    public List<string> boosterV3;
+    public string code;
+    public MTGJSONMeta meta;
+    public string mtgoCode;
+    public bool isOnlineOnly = false;
+    public string releaseDate;
+    public int tcgplayerGroupId;
+    public List<MTGToken> tokens;
+    public string type;
+    public int totalSetSize;
  }

@@ -6,7 +6,7 @@ public static class MTGFormatter
 
     public static string FormatManaCost(string inputString)
     {
-        if (inputString == string.Empty || inputString == "") { return ""; }
+        if (inputString == string.Empty || inputString == "" || inputString == null) { return ""; }
         else
         {
             string resultString = inputString;

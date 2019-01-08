@@ -11,12 +11,14 @@ using UnityEngine.UI;
 public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
 {
     public AlbumView albumView;
+    public int albumIndex;
     public Animator QuantityAnimator;
     public MTGCard cardLink;
     public Sprite defaultImage;
     public RawImage cardImageObject;
     public bool wasUpdated = true;
     public GameObject loadingIndicator;
+    public GameObject selectionUI;
     //public int timer = 30;
     public CardViewHeaderColor[] colorPresets = new CardViewHeaderColor[7];
     public TextMeshProUGUI headerText;
@@ -27,10 +29,11 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public TextMeshProUGUI totalQuantityTextObject;
     public TextMeshProUGUI regularQuantityTextObject;
     public TextMeshProUGUI foilQuantityTextObject;
+    private bool isSelected = false;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         cardImageObject.texture = new Texture2D(488,680,TextureFormat.ARGB32,false);
         //timer = ConfigAgent.instance.ImageUpdateTimer;
     }
@@ -43,11 +46,11 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         }
         if (quantitiesUpdated)
         {
-            UpdateQuantities();
+            UpdateQuantitiesDisplay();
         }
     }
 
-    private void UpdateQuantities()
+    private void UpdateQuantitiesDisplay()
     {
         if (cardLink != null)
         {
@@ -132,7 +135,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         if (!imageCached)
         {
-            string DownloadLocation = (_card.layout == "transform" || _card.layout == "flip" || _card.layout == "split" || _card.layout == "meld") ? "multiverse/" + _card.multiverseId : _card.uuid;
+            string DownloadLocation = (_card.layout == "transform" || _card.layout == "flip" || _card.layout == "split" || _card.layout == "meld") ? "multiverse/" + _card.multiverseId : _card.scryfallId;
             string URLpath = "https://api.scryfall.com/cards/" + DownloadLocation + "?format=image&version=normal";
             StartCoroutine(SetImageFromURL(URLpath, _card.uuid));
             wasUpdated = true;
@@ -150,7 +153,47 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         string headerName = string.Empty;
         if (cardLink.foreignData.Count > 0)
         {
-            headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Russian")).name;
+            switch (ConfigAgent.instance.languageMode)
+            {
+                case LanguageMode.ENGLISH:
+                    headerName = cardLink.name;
+                    break;
+                case LanguageMode.CHINESE_SIMPLIFIED:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Simplified")).name;
+                    break;
+                case LanguageMode.CHINESE_TRADITIONAL:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Traditional")).name;
+                    break;
+                case LanguageMode.FRENCH:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("French")).name;
+                    break;
+                case LanguageMode.GERMAN:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("German")).name;
+                    break;
+                case LanguageMode.ITALIAN:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Italian")).name;
+                    break;
+                case LanguageMode.SPANISH:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Spanish")).name;
+                    break;
+                case LanguageMode.PORTUGESE:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Portugese")).name;
+                    break;
+                case LanguageMode.JAPANESE:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Japanese")).name;
+                    break;
+                case LanguageMode.KOREAN:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Korean")).name;
+                    break;
+                case LanguageMode.RUSSIAN:
+                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Russian")).name;
+                    break;
+
+                default:
+                    headerName = cardLink.name;
+                    break;
+
+            }
         }
         else
         {
@@ -210,18 +253,33 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        QuantityAnimator.SetTrigger("Toggle");
+        QuantityAnimator.SetBool("isSelected", true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        QuantityAnimator.SetTrigger("Toggle");
+        if (!isSelected)
+        {
+            QuantityAnimator.SetBool("isSelected", false);
+        }
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        int amount = (eventData.button == PointerEventData.InputButton.Left) ? 1 : -1;
-        CollectionAgent.instance.UpdateQuantities(cardLink, ConfigAgent.instance.languageMode, CardTreatment.REGULAR, amount);
+        //int amount = (eventData.button == PointerEventData.InputButton.Left) ? 1 : -1;
+        //CollectionAgent.instance.UpdateQuantities(cardLink, ConfigAgent.instance.languageMode, CardTreatment.REGULAR, amount);
+        //if (albumView != null)
+        //{
+        //    albumView.UpdateQuantities();
+        //}
+        ////quantitiesUpdated = true;
+
+        SelectionAgent.instance.Select(this);
+    }
+
+    public void UpdateQuantities(CardTreatment treatment, int amount)
+    {
+        CollectionAgent.instance.UpdateQuantities(cardLink, ConfigAgent.instance.languageMode, treatment, amount);
         if (albumView != null)
         {
             albumView.UpdateQuantities();
@@ -231,5 +289,28 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
+    }
+
+    public void Select()
+    {
+        isSelected = true;
+        UpdateSelection();
+        QuantityAnimator.SetBool("isSelected", true);
+    }
+
+    public void Deselect()
+    {
+        isSelected = false;
+        UpdateSelection();
+        QuantityAnimator.SetBool("isSelected", false);
+    }
+
+    private void UpdateSelection()
+    {
+        if (isSelected)
+        {
+            selectionUI.SetActive(true);
+        }
+        else selectionUI.SetActive(false);
     }
 }

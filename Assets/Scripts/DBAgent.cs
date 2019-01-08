@@ -97,7 +97,6 @@ public class DBAgent : MonoBehaviour {
         {
             Debug.Log(DB.sets.Count + " sets loaded");
         }
-        SearchAgent.instance.AssignDB(DB);
     }
 	
 	// Update is called once per frame

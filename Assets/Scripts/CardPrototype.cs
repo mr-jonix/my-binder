@@ -8,10 +8,13 @@ public class CardPrototype
     public string artist;
     public string bordercolor;
     public List<string> colorIdentity;
+    public List<string> colorIndicator;
     public List<string> colors;
     public string loyalty;
     public string number;
     public string power;
+    public string scryfallId;
+    public string side;
     public string text;
     public string toughness;
     public string type;

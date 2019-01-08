@@ -93,22 +93,22 @@ namespace MyBinder
             {
                 return true;
             }
-            return entity.convertedManaCost.Equals(_cmc);
+            return entity.convertedManaCost.Equals(_cmc)||entity.faceConvertedManaCost.Equals(_cmc);
         }
     }
 
     public class ForeignNameSpecification : CompositeSpecification<MTGCard>
     {
-        private readonly ForeignCard _template;
+        private readonly ForeignDataObject _template;
 
-        public ForeignNameSpecification(ForeignCard foreignCardTemplate)
+        public ForeignNameSpecification(ForeignDataObject foreignCardTemplate)
         {
             _template = foreignCardTemplate;
         }
 
         public override bool IsSatisfiedBy(MTGCard entity)
         {
-            foreach (ForeignCard foreignCard in entity.foreignData)
+            foreach (ForeignDataObject foreignCard in entity.foreignData)
             {
                 if (foreignCard.language == _template.language && foreignCard.name.ToLower().Contains(_template.name))
                 {
