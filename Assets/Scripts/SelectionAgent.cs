@@ -9,7 +9,7 @@ public class SelectionAgent : MonoBehaviour
     public static SelectionAgent instance = null;
     public CardView selection = null;
     public CardView sideView = null;
-    public CardView[] cardViews;
+    public AlbumView albumView = null;
 
     private void Awake()
     {
@@ -58,7 +58,12 @@ public class SelectionAgent : MonoBehaviour
             {
                 if (selection.albumIndex > 0)
                 {
-                    Select(cardViews[selection.albumIndex - 1]);
+                    Select(albumView.cardViews[selection.albumIndex - 1]);
+                }
+                else
+                {
+                    albumView.PrevPage();
+                    Select(albumView.cardViews[17]);
                 }
             }
         }
@@ -68,7 +73,16 @@ public class SelectionAgent : MonoBehaviour
             {
                 if (selection.albumIndex < 17)
                 {
-                    Select(cardViews[selection.albumIndex + 1]);
+                    if (albumView.page + selection.albumIndex + 1 < albumView.cardList.Count)
+                    {
+                        Select(albumView.cardViews[selection.albumIndex + 1]);
+                    }
+                }
+                else
+                {
+                    albumView.NextPage();
+                    Select(albumView.cardViews[0]);
+
                 }
             }
         }
