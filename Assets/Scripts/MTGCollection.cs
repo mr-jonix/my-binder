@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 
 namespace MyBinder
@@ -60,12 +58,20 @@ namespace MyBinder
             switch (_treatment)
             {
                 case CardTreatment.REGULAR:
-                    _localizedEntry.regularQuantity += _amount;
+                    if (_card.hasNonFoil) _localizedEntry.regularQuantity += _amount;
                     if (_localizedEntry.regularQuantity < 0) _localizedEntry.regularQuantity = 0;
                     break;
                 case CardTreatment.FOIL:
-                    _localizedEntry.foilQuantity += _amount;
-                    if (_localizedEntry.foilQuantity < 0) _localizedEntry.foilQuantity = 0;
+                    if (_card.hasFoil)
+                    {
+                        _localizedEntry.foilQuantity += _amount;
+                    }
+
+                    if (_localizedEntry.foilQuantity < 0)
+                    {
+                        _localizedEntry.foilQuantity = 0;
+                    }
+
                     break;
                 case CardTreatment.PROMO:
                     _localizedEntry.promoQuantity += _amount;
