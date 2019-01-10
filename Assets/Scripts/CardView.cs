@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 using System;
 using MyBinder;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
 {
@@ -71,7 +72,14 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 }
                 else
                 {
-                    quantityBaseImage.color = colorPresets[6].headerColor;
+                    if (_record.foilCurrentLanguage > 0)
+                    {
+                        quantityBaseImage.color = colorPresets[5].headerColor;
+                    }
+                    else
+                    {
+                        quantityBaseImage.color = colorPresets[6].headerColor;
+                    }
                 }
             }
 
@@ -107,20 +115,37 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public IEnumerator SetImageFromURL(string url, string uuid)
     {
-        Debug.Log("Start download from " + url);
+        ////Debug.Log("Start download from " + url);
 
-        // Start a download of the given URL
-        WWW www = new WWW(url);
+        //// Start a download of the given URL
+        //WWW www = new WWW(url);
 
-        // Wait for download to complete
-        yield return www;
-        Debug.Log("download OK");
-        
+        //// Wait for download to complete
+        //yield return www;
+        //Debug.Log("download OK");
+        Texture2D texture;
+
+        using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(url))
+        {
+            yield return uwr.SendWebRequest();
+
+            if (uwr.isNetworkError || uwr.isHttpError)
+            {
+                Debug.Log(uwr.error);
+            }
+            else
+            {
+                // Get downloaded asset bundle
+                texture = DownloadHandlerTexture.GetContent(uwr);
+                cardImageObject.texture = texture;
+                ImageUpdated();
+
+                File.WriteAllBytes(ConfigAgent.instance.imageSaveDataPath + uuid + ".png", ImageConversion.EncodeToPNG(texture));
+            }
+        }
+
         // assign texture
-        cardImageObject.texture = www.texture;
-        ImageUpdated();
 
-        File.WriteAllBytes(ConfigAgent.instance.imageSaveDataPath+uuid+".png", ImageConversion.EncodeToPNG(www.texture));
     }
 
     public void ImageUpdated()
