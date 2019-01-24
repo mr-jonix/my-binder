@@ -94,6 +94,8 @@ public class ConfigAgent : MonoBehaviour {
         if (!File.Exists(imageSaveDataPath)){
             Directory.CreateDirectory(imageSaveDataPath);
         }
+
+        SaveConfig();
     }
 
     private void OnApplicationQuit()
@@ -110,7 +112,7 @@ public class ConfigAgent : MonoBehaviour {
     {
         if (File.Exists(Application.persistentDataPath + "/my-binder.cfg"))
         {
-            JsonUtility.FromJsonOverwrite(File.ReadAllText(Application.persistentDataPath + "my-binder.cfg"), this);
+            JsonUtility.FromJsonOverwrite(File.ReadAllText(Application.persistentDataPath + "/my-binder.cfg"), this);
         }
     }
 }

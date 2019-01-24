@@ -22,7 +22,8 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public GameObject selectionUI;
     //public int timer = 30;
     public CardViewHeaderColor[] colorPresets = new CardViewHeaderColor[7];
-    public TextMeshProUGUI headerText;
+    public TextMeshProUGUI manaCostText;
+    public Text headerText;
     public Image headerBG;
 
     public bool quantitiesUpdated = true;
@@ -224,8 +225,10 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             headerName = cardLink.name;
         }
-        headerText.text = headerName + " " + MTGFormatter.FormatManaCost(cardLink.manaCost);
+        headerText.text = headerName;
         headerText.color = GetHeaderTextColor(cardLink);
+        manaCostText.text = MTGFormatter.FormatManaCost(cardLink.manaCost);
+        manaCostText.color = GetHeaderTextColor(cardLink);
         headerBG.color = GetHeaderColor(cardLink);
     }
 
@@ -233,7 +236,6 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         cardLink = card;
         UpdateHeader();
-        //cardImageObject.gameObject.SetActive(false); Unoptimal solution
         loadingIndicator.SetActive(true);
         wasUpdated = true;
         quantitiesUpdated = true;
@@ -291,14 +293,6 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        //int amount = (eventData.button == PointerEventData.InputButton.Left) ? 1 : -1;
-        //CollectionAgent.instance.UpdateQuantities(cardLink, ConfigAgent.instance.languageMode, CardTreatment.REGULAR, amount);
-        //if (albumView != null)
-        //{
-        //    albumView.UpdateQuantities();
-        //}
-        ////quantitiesUpdated = true;
-
         SelectionAgent.instance.Select(this);
     }
 
