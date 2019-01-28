@@ -9,8 +9,17 @@ public class PriceRetriever : MonoBehaviour
     public UnityEngine.UI.Text regPriceLabel;
     public UnityEngine.UI.Text foilPriceLabel;
     public CardView cardView;
+    [SerializeField]
     public Dictionary<string,ScryfallPriceObject> priceCache = new Dictionary<string, ScryfallPriceObject>();
     // Start is called before the first frame update
+
+    public void Update()
+    {
+        if (cardView.wasUpdated)
+        {
+            regPriceLabel.text = RetrievePriceFromCache();
+        }
+    }
 
     public IEnumerator RetrievePrice(MTGCard card)
     {
@@ -29,8 +38,32 @@ public class PriceRetriever : MonoBehaviour
             ScryfallPriceObject scryfallPriceObject = JsonUtility.FromJson<ScryfallPriceObject>(www.downloadHandler.text);
             scryfallPriceObject.date = DateTime.Now;
             priceCache.Add(card.scryfallId, scryfallPriceObject);
-            regPriceLabel.text = scryfallPriceObject.usd;
+            regPriceLabel.text = "$"+scryfallPriceObject.usd;
         }
+    }
+
+    public string RetrievePriceFromCache()
+    {
+        string result = "N/A";
+        if (cardView !=null && cardView.cardLink != null)
+        {
+            MTGCard card = cardView.cardLink;
+            ScryfallPriceObject priceRecord;
+            if (priceCache.ContainsKey(card.scryfallId))
+            {
+                priceCache.TryGetValue(card.scryfallId, out priceRecord);
+                if (priceRecord.date.Date == System.DateTime.Now.Date)
+                {
+                    result = "$"+priceRecord.usd;
+                }
+                else
+                {
+                    priceCache.Remove(card.scryfallId);
+                }
+            }
+        }
+
+        return result;
     }
 
     public void RetrievePriceFromURLOrCache()
@@ -45,7 +78,7 @@ public class PriceRetriever : MonoBehaviour
                 priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
-                    regPriceLabel.text = priceRecord.usd;
+                    regPriceLabel.text = "$"+priceRecord.usd;
                 }
                 else
                 {
