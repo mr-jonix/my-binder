@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
 using MyBinder;
+using System.Collections;
 
 public class SimpleSearchField : MonoBehaviour
 {
@@ -33,6 +34,18 @@ public class SimpleSearchField : MonoBehaviour
     void Start()
     {
         DoSearchAndUpdate();
+    }
+
+    IEnumerator SearchWithDelay()
+    {
+        yield return new WaitForSeconds(ConfigAgent.instance.SearchInputDelay);
+        DoSearchAndUpdate();
+    }
+
+    public void UpdateSearchWithDelay()
+    {
+        this.StopAllCoroutines();
+        StartCoroutine(SearchWithDelay());
     }
 
     public void DoSearchAndUpdate()

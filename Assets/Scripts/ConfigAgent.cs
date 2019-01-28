@@ -27,6 +27,7 @@ public class ConfigAgent : MonoBehaviour {
     public int AutoSaveInterval = 1; // in minutes
     public int AutoSaveTimer = 3600;
     public int SearchResultsLimit = 100;
+    public float SearchInputDelay = 0.2f;
     public string imageSaveDataPath = "D:/temp/images//";
     public int ImageUpdateTimer = 10;
     public LanguageMode languageMode = LanguageMode.ENGLISH;

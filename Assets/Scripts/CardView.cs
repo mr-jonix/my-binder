@@ -25,6 +25,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public TextMeshProUGUI manaCostText;
     public Text headerText;
     public Image headerBG;
+    public bool isSelectable = true;
 
     public bool quantitiesUpdated = true;
     public Image quantityBaseImage;
@@ -105,6 +106,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 		else 
         if (wasUpdated)
         {
+            StopAllCoroutines();
             SetImageFromCacheOrURL(cardLink);
             wasUpdated = false;
 
@@ -293,7 +295,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        SelectionAgent.instance.Select(this);
+        if (isSelectable) SelectionAgent.instance.Select(this);
     }
 
     public void UpdateQuantities(CardTreatment treatment, int amount)
