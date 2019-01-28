@@ -67,13 +67,48 @@ public class SelectionAgent : MonoBehaviour
                 }
             }
         }
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            if (selection != null)
+            {
+                if (selection.albumIndex >= 3)
+                {
+                    Select(albumView.cardViews[selection.albumIndex - 3]);
+                }
+                else
+                {
+                    var i = 15 + selection.albumIndex;
+                    albumView.PrevPage();
+                    Select(albumView.cardViews[i]);
+                }
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            if (selection != null)
+            {
+                if (selection.albumIndex < 15)
+                {
+                    if ((albumView.page) * 18 + selection.albumIndex + 3 < albumView.cardList.Count)
+                    {
+                        Select(albumView.cardViews[selection.albumIndex + 3]);
+                    }
+                }
+                else
+                {
+                    var i = selection.albumIndex - 15;
+                    albumView.NextPage();
+                    Select(albumView.cardViews[i]);
+                }
+            }
+        }
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             if (selection != null)
             {
                 if (selection.albumIndex < 17)
                 {
-                    if (albumView.page + selection.albumIndex + 1 < albumView.cardList.Count)
+                    if ((albumView.page)*18 + selection.albumIndex + 1 < albumView.cardList.Count)
                     {
                         Select(albumView.cardViews[selection.albumIndex + 1]);
                     }
