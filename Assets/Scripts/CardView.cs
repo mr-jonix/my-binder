@@ -11,6 +11,7 @@ using UnityEngine.Networking;
 
 public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
 {
+    public bool isSideView = false;
     public AlbumView albumView;
     public int albumIndex;
     public Animator QuantityAnimator;
@@ -282,12 +283,15 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        QuantityAnimator.SetBool("isSelected", true);
+        if (!isSideView)
+        {
+            QuantityAnimator.SetBool("isSelected", true);
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!isSelected)
+        if (!isSelected&&!isSideView)
         {
             QuantityAnimator.SetBool("isSelected", false);
         }

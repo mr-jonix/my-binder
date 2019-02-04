@@ -9,7 +9,7 @@ public class SearchAgent : MonoBehaviour {
     public static SearchAgent instance = null;
     public CardView cardView;
     public AlbumView albumView;
-    public CardFilter filter;
+    public CardFilter filter = new CardFilter();
     public List<MTGCard> currentSearchResults;
     public bool isUpdated = false;
 

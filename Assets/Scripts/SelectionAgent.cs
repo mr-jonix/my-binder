@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
+//[Serializable]
 public class SelectionAgent : MonoBehaviour
 {
     public static SelectionAgent instance = null;
