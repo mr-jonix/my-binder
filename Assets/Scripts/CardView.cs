@@ -188,34 +188,34 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     headerName = cardLink.name;
                     break;
                 case LanguageMode.CHINESE_SIMPLIFIED:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Simplified")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Simplified"))!=null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Simplified")).name;
                     break;
                 case LanguageMode.CHINESE_TRADITIONAL:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Traditional")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Traditional"))==null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Chinese Traditional")).name;
                     break;
                 case LanguageMode.FRENCH:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("French")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("French")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("French")).name;
                     break;
                 case LanguageMode.GERMAN:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("German")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("German")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("German")).name;
                     break;
                 case LanguageMode.ITALIAN:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Italian")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Italian")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Italian")).name;
                     break;
                 case LanguageMode.SPANISH:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Spanish")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Spanish")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Spanish")).name;
                     break;
                 case LanguageMode.PORTUGESE:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Portugese")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Portugese")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Portugese")).name;
                     break;
                 case LanguageMode.JAPANESE:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Japanese")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Japanese")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Japanese")).name;
                     break;
                 case LanguageMode.KOREAN:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Korean")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Korean")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Korean")).name;
                     break;
                 case LanguageMode.RUSSIAN:
-                    headerName = (ConfigAgent.instance.languageMode == LanguageMode.ENGLISH) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Russian")).name;
+                    headerName = (cardLink.foreignData.Find(_card => _card.language.Contains("Russian")) == null) ? cardLink.name : cardLink.foreignData.Find(_card => _card.language.Contains("Russian")).name;
                     break;
 
                 default:
