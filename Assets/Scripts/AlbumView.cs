@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AlbumView : MonoBehaviour
 {
@@ -8,10 +9,14 @@ public class AlbumView : MonoBehaviour
     public List<CardView> cardViews;
     public List<MTGCard> cardList;
     public int page = 0;
+    public Text pageNumberLabel;
+    public Button nextPageButton;
+    public Button prevPageButton;
 
     private void Start()
     {
         cardList = SearchAgent.instance.currentSearchResults;
+        UpdatePagination();
     }
 
     public void UpdateQuantities()
@@ -34,6 +39,7 @@ public class AlbumView : MonoBehaviour
     {
         page = 0;
         cardList = _cardList;
+        UpdatePagination();
         Debug.Log("new album card list size is " + cardList.Count);
         for (int i = 0; i < cardViews.Count; i++)
         {
@@ -67,10 +73,42 @@ public class AlbumView : MonoBehaviour
 
     }
 
+    public void UpdatePagination()
+    {
+        if (pageNumberLabel != null)
+        {
+            pageNumberLabel.text = "Page " + (page+1) + " of " + Mathf.CeilToInt(cardList.Count / 18f);
+        }
+        if (prevPageButton != null)
+        {
+            if (page == 0)
+            {
+                prevPageButton.interactable = false;
+            }
+            else
+            {
+                prevPageButton.interactable = true;
+            }
+
+            if (nextPageButton != null)
+            {
+                if (page < cardList.Count / 18)
+                {
+                    nextPageButton.interactable = true;
+                }
+                else
+                {
+                    nextPageButton.interactable = false;
+                }
+            }
+        }
+    }
+
     public void NextPage()
     {
         if (page  < cardList.Count / 18) page++;
         UpdateCardViews();
+        UpdatePagination();
         SelectionAgent.instance.Deselect();
     }
 
@@ -78,6 +116,7 @@ public class AlbumView : MonoBehaviour
     {
         if (page > 0) page--;
         UpdateCardViews();
+        UpdatePagination();
         SelectionAgent.instance.Deselect();
 
     }
