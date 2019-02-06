@@ -98,7 +98,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         if (cardLink == null&&wasUpdated)
         {
-            cardImageObject.texture = defaultImage.texture;
+            //cardImageObject.texture = defaultImage.texture;
             totalQuantityTextObject.text = string.Empty;
             regularQuantityTextObject.text = string.Empty;
             foilQuantityTextObject.text = string.Empty;
@@ -136,6 +136,11 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             if (uwr.isNetworkError || uwr.isHttpError)
             {
                 Debug.Log(uwr.error);
+                texture = new Texture2D(488, 680);
+                texture.SetPixels(defaultImage.texture.GetPixels(0,0,488,680));
+                texture.Apply();
+                cardImageObject.texture = texture;
+                ImageUpdated();
             }
             else
             {
