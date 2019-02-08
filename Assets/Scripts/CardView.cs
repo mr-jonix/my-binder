@@ -17,6 +17,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Animator QuantityAnimator;
     public MTGCard cardLink;
     public Sprite defaultImage;
+    public RenderTexture renderTexture;
     public RawImage cardImageObject;
     public bool wasUpdated = true;
     public GameObject loadingIndicator;
@@ -36,10 +37,8 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     private bool isSelected = false;
 
 
-    // Use this for initialization
     void Start () {
-        cardImageObject.texture = new Texture2D(488,680,TextureFormat.ARGB32,false);
-        //timer = ConfigAgent.instance.ImageUpdateTimer;
+        renderTexture = new RenderTexture(488,680,16);
     }
 
     private void Update()
@@ -86,19 +85,14 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 }
             }
 
-            //Debug.Log("Quantities Updated!");
         }
         quantitiesUpdated = false;
     }
 
-    // Update is called once per frame
     void UpdateCardView() {
-
-        //if (timer>=1&&wasUpdated) timer--;
 
         if (cardLink == null&&wasUpdated)
         {
-            //cardImageObject.texture = defaultImage.texture;
             totalQuantityTextObject.text = string.Empty;
             regularQuantityTextObject.text = string.Empty;
             foilQuantityTextObject.text = string.Empty;
@@ -111,22 +105,11 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             SetImageFromCacheOrURL(cardLink);
             wasUpdated = false;
 
-            //cardImageObject.gameObject.SetActive(true); Unoptimal solution
-
-            //timer = ConfigAgent.instance.ImageUpdateTimer;
         }
 	}
 
     public IEnumerator SetImageFromURL(string url, string uuid)
     {
-        ////Debug.Log("Start download from " + url);
-
-        //// Start a download of the given URL
-        //WWW www = new WWW(url);
-
-        //// Wait for download to complete
-        //yield return www;
-        //Debug.Log("download OK");
         Texture2D texture;
 
         using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(url))
@@ -136,10 +119,8 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             if (uwr.isNetworkError || uwr.isHttpError)
             {
                 Debug.Log(uwr.error);
-                texture = new Texture2D(488, 680);
-                texture.SetPixels(defaultImage.texture.GetPixels(0,0,488,680));
-                texture.Apply();
-                cardImageObject.texture = texture;
+                Graphics.Blit(defaultImage.texture, renderTexture);
+                cardImageObject.texture = renderTexture;
                 ImageUpdated();
             }
             else
@@ -176,7 +157,9 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         }
         else
         {
-            ImageConversion.LoadImage((Texture2D)cardImageObject.texture, File.ReadAllBytes(filePath));
+            var texture = new Texture2D(488, 680);
+            ImageConversion.LoadImage(texture, File.ReadAllBytes(filePath));
+            cardImageObject.texture = texture;
             wasUpdated = true;
             ImageUpdated();
         }

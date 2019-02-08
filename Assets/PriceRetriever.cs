@@ -10,7 +10,6 @@ public class PriceRetriever : MonoBehaviour
     public UnityEngine.UI.Text foilPriceLabel;
     public CardView cardView;
     [SerializeField]
-    public Dictionary<string,ScryfallPriceObject> priceCache = new Dictionary<string, ScryfallPriceObject>();
     // Start is called before the first frame update
 
     public void Update()
@@ -37,7 +36,7 @@ public class PriceRetriever : MonoBehaviour
         {
             ScryfallPriceObject scryfallPriceObject = JsonUtility.FromJson<ScryfallPriceObject>(www.downloadHandler.text);
             scryfallPriceObject.date = DateTime.Now;
-            priceCache.Add(card.scryfallId, scryfallPriceObject);
+            CacheAgent.instance.priceCache.Add(card.scryfallId, scryfallPriceObject);
             regPriceLabel.text = "$"+scryfallPriceObject.usd;
         }
     }
@@ -49,16 +48,16 @@ public class PriceRetriever : MonoBehaviour
         {
             MTGCard card = cardView.cardLink;
             ScryfallPriceObject priceRecord;
-            if (priceCache.ContainsKey(card.scryfallId))
+            if (CacheAgent.instance.priceCache.ContainsKey(card.scryfallId))
             {
-                priceCache.TryGetValue(card.scryfallId, out priceRecord);
+                CacheAgent.instance.priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
                     result = "$"+priceRecord.usd;
                 }
                 else
                 {
-                    priceCache.Remove(card.scryfallId);
+                    CacheAgent.instance.priceCache.Remove(card.scryfallId);
                 }
             }
         }
@@ -73,16 +72,16 @@ public class PriceRetriever : MonoBehaviour
         {
             MTGCard card = cardView.cardLink;
             ScryfallPriceObject priceRecord;
-            if (priceCache.ContainsKey(card.scryfallId))
+            if (CacheAgent.instance.priceCache.ContainsKey(card.scryfallId))
             {
-                priceCache.TryGetValue(card.scryfallId, out priceRecord);
+                CacheAgent.instance.priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
                     regPriceLabel.text = "$"+priceRecord.usd;
                 }
                 else
                 {
-                    priceCache.Remove(card.scryfallId);
+                    CacheAgent.instance.priceCache.Remove(card.scryfallId);
                     StartCoroutine(RetrievePrice(card));
                 }
             }
