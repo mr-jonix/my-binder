@@ -26,6 +26,7 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public CardViewHeaderColor[] colorPresets = new CardViewHeaderColor[7];
     public TextMeshProUGUI manaCostText;
     public Text headerText;
+    public SetAndRarity setAndRarity;
     public Image headerBG;
     public bool isSelectable = true;
 
@@ -83,6 +84,11 @@ public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                         quantityBaseImage.color = colorPresets[6].headerColor;
                     }
                 }
+            }
+
+            if (setAndRarity)
+            {
+                setAndRarity.UpdateRarity(cardLink);
             }
 
         }
