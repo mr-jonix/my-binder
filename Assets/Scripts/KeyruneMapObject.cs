@@ -13,6 +13,7 @@ public class KeyruneMapObject : ScriptableObject
         if (setCodeMap.Exists(x => x.setCode == input))
             return setCodeMap.Find(x => x.setCode == input).keyruneChar;
         else return setCodeMap.Find(x => x.setCode == "").keyruneChar;
+        
     }
 }
 

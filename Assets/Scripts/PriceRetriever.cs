@@ -16,7 +16,8 @@ public class PriceRetriever : MonoBehaviour
     {
         if (cardView.wasUpdated)
         {
-            regPriceLabel.text = RetrievePriceFromCache();
+            regPriceLabel.text = "$ NA / NA";
+            RetrievePriceFromURLOrCache();
         }
     }
 
@@ -37,7 +38,7 @@ public class PriceRetriever : MonoBehaviour
             ScryfallPriceObject scryfallPriceObject = JsonUtility.FromJson<ScryfallPriceObject>(www.downloadHandler.text);
             scryfallPriceObject.date = DateTime.Now;
             CacheAgent.instance.priceCache.Add(card.scryfallId, scryfallPriceObject);
-            regPriceLabel.text = "$"+scryfallPriceObject.usd;
+            regPriceLabel.text = "$"+scryfallPriceObject.prices.usd + " / " + scryfallPriceObject.prices.usd_foil;
         }
     }
 
@@ -53,7 +54,7 @@ public class PriceRetriever : MonoBehaviour
                 CacheAgent.instance.priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
-                    result = "$"+priceRecord.usd;
+                    result = "$"+priceRecord.prices.usd + " / " + priceRecord.prices.usd_foil;
                 }
                 else
                 {
@@ -77,7 +78,7 @@ public class PriceRetriever : MonoBehaviour
                 CacheAgent.instance.priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
-                    regPriceLabel.text = "$"+priceRecord.usd;
+                    regPriceLabel.text = "$"+priceRecord.usd + " / " + priceRecord.prices.usd_foil;
                 }
                 else
                 {
