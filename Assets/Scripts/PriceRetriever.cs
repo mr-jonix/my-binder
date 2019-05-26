@@ -78,7 +78,7 @@ public class PriceRetriever : MonoBehaviour
                 CacheAgent.instance.priceCache.TryGetValue(card.scryfallId, out priceRecord);
                 if (priceRecord.date.Date == System.DateTime.Now.Date)
                 {
-                    regPriceLabel.text = "$"+priceRecord.usd + " / " + priceRecord.prices.usd_foil;
+                    regPriceLabel.text = "$"+priceRecord.prices.usd + " / " + priceRecord.prices.usd_foil;
                 }
                 else
                 {
