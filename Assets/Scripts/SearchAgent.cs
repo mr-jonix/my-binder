@@ -113,7 +113,7 @@ public class SearchAgent : MonoBehaviour {
                          where resultingSpecification.IsSatisfiedBy(card)
                          select card;
 
-        currentSearchResults = finalQuery.Take(ConfigAgent.instance.SearchResultsLimit).OrderBy(card => card.name).ToList();
+        currentSearchResults = finalQuery.OrderBy(card => card.name).Take(ConfigAgent.instance.SearchResultsLimit).ToList();
     }
 
 
