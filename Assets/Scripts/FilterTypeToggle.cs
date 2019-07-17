@@ -53,7 +53,6 @@ public class FilterTypeToggle : MonoBehaviour
                 SearchAgent.instance.isUpdated = true;
                 break;
             default: break;
-        }
-        
+        }        
     }
 }

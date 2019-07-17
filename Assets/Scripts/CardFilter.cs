@@ -6,8 +6,7 @@ namespace MyBinder
     public class CardFilter
     {
         public string name = string.Empty;
-        public List<string> setCodes;
-        public List<LegalityObject> legalities;
+        public List<string> setCodes = new List<string>();
         public float convertedManaCost = -17f;
         public bool isWhite = false;
         public bool isBlue = false;
@@ -24,6 +23,10 @@ namespace MyBinder
         public bool isLand = false;
         public bool isPlaneswalker = false;
         public bool isTribal = false;
+        public bool isStandardLegal = false;
+        public bool isModernLegal = false;
+        public bool isLegacyLegal = false;
+        public bool isVintageLegal = false;
         public FilterMode filterMode = FilterMode.AND;
 
     }

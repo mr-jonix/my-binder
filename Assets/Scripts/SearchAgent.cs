@@ -11,6 +11,7 @@ public class SearchAgent : MonoBehaviour {
     public AlbumView albumView;
     public CardFilter filter = new CardFilter();
     public List<MTGCard> currentSearchResults;
+    public SetFilterDropdown setFilterDropdown;
     public bool isUpdated = false;
 
     private void Awake()
@@ -66,6 +67,11 @@ public class SearchAgent : MonoBehaviour {
         var isEnchantment = new IsEnchantmentSpecification();
         var isPlaneswalker = new IsPlaneswalkerSpecification();
         var isTribal = new IsTribalSpecification();
+        var isStandardLegal = new IsStandardLegalSpecification();
+        var isModernLegal = new IsModernLegalSpecification();
+        var isLegacyLegal = new IsLegacyLegalSpecification();
+        var isVintageLegal = new IsVintageLegalSpecification();
+        var isInSet = new IsInSetSpecification(filter.setCodes);
 
         var resultingSpecification = englishName.Or(foreignName);
         resultingSpecification = resultingSpecification.And(convertedManaCost);
@@ -81,14 +87,6 @@ public class SearchAgent : MonoBehaviour {
                     if (filter.isGreen) resultingSpecification = resultingSpecification.And(isGreen);
                     if (filter.isColorless) resultingSpecification = resultingSpecification.And(isColorless);
                     if (filter.isMulticolored) resultingSpecification = resultingSpecification.And(isMulticolored);
-                    if (filter.isArtifact) resultingSpecification = resultingSpecification.And(isArtifact);
-                    if (filter.isCreature) resultingSpecification = resultingSpecification.And(isCreature);
-                    if (filter.isLand) resultingSpecification = resultingSpecification.And(isLand);
-                    if (filter.isInstant) resultingSpecification = resultingSpecification.And(isInstant);
-                    if (filter.isSorcery) resultingSpecification = resultingSpecification.And(isSorcery);
-                    if (filter.isEnchantment) resultingSpecification = resultingSpecification.And(isEnchantment);
-                    if (filter.isPlaneswalker) resultingSpecification = resultingSpecification.And(isPlaneswalker);
-                    if (filter.isTribal) resultingSpecification = resultingSpecification.And(isTribal);
                     break;
                 }
             case MyBinder.FilterMode.OR:
@@ -108,6 +106,19 @@ public class SearchAgent : MonoBehaviour {
                 }
             default: break;
         }
+        if (filter.isArtifact) resultingSpecification = resultingSpecification.And(isArtifact);
+        if (filter.isCreature) resultingSpecification = resultingSpecification.And(isCreature);
+        if (filter.isLand) resultingSpecification = resultingSpecification.And(isLand);
+        if (filter.isInstant) resultingSpecification = resultingSpecification.And(isInstant);
+        if (filter.isSorcery) resultingSpecification = resultingSpecification.And(isSorcery);
+        if (filter.isEnchantment) resultingSpecification = resultingSpecification.And(isEnchantment);
+        if (filter.isPlaneswalker) resultingSpecification = resultingSpecification.And(isPlaneswalker);
+        if (filter.isTribal) resultingSpecification = resultingSpecification.And(isTribal);
+        if (filter.isStandardLegal) resultingSpecification = resultingSpecification.And(isStandardLegal);
+        if (filter.isModernLegal) resultingSpecification = resultingSpecification.And(isModernLegal);
+        if (filter.isLegacyLegal) resultingSpecification = resultingSpecification.And(isLegacyLegal);
+        if (filter.isVintageLegal) resultingSpecification = resultingSpecification.And(isVintageLegal);
+        if (filter.setCodes.Count > 0) resultingSpecification = resultingSpecification.And(isInSet);
 
         var finalQuery = from card in DBAgent.instance.GetCardsFromSets(DBAgent.instance.DB.sets)
                          where resultingSpecification.IsSatisfiedBy(card)

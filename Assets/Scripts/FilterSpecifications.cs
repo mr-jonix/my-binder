@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyBinder
 {
@@ -204,6 +205,52 @@ namespace MyBinder
         public override bool IsSatisfiedBy(MTGCard card)
         {
             return card.types.Contains(_type);
+        }
+    }
+
+    public class IsStandardLegalSpecification : CompositeSpecification<MTGCard>
+    {
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.legalities.standard == "Legal";
+        }
+    }
+
+    public class IsModernLegalSpecification : CompositeSpecification<MTGCard>
+    {
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.legalities.modern == "Legal";
+        }
+    }
+
+    public class IsLegacyLegalSpecification : CompositeSpecification<MTGCard>
+    {
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.legalities.legacy == "Legal";
+        }
+    }
+
+    public class IsVintageLegalSpecification : CompositeSpecification<MTGCard>
+    {
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return card.legalities.vintage == "Legal" || card.legalities.vintage == "Restricted";
+        }
+    }
+
+    public class IsInSetSpecification : CompositeSpecification<MTGCard>
+    {
+        private readonly List<string> setCodes;
+
+        public IsInSetSpecification(List<string> codes)
+        {
+            setCodes = codes;
+        }
+        public override bool IsSatisfiedBy(MTGCard card)
+        {
+            return setCodes.Contains(card.setCode);
         }
     }
 

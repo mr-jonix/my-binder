@@ -40,7 +40,6 @@ public class AlbumView : MonoBehaviour
         page = 0;
         cardList = _cardList;
         UpdatePagination();
-        Debug.Log("new album card list size is " + cardList.Count);
         for (int i = 0; i < cardViews.Count; i++)
         {
             if (page+i < cardList.Count)

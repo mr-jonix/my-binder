@@ -70,6 +70,8 @@ public class DBAgent : MonoBehaviour {
                 card.setCode = set.code;
             }
         }
+
+        SearchAgent.instance.setFilterDropdown.UpdateOptions();
     }
 
     private void Awake()

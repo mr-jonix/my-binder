@@ -16,7 +16,7 @@ public class FilterColorToggle : MonoBehaviour
         toggle = gameObject.GetComponent<Toggle>();
     }
 
-    public void UpdateFilter()
+    public void UpdateFilterColor()
     {
         switch (color)
         {
@@ -49,5 +49,11 @@ public class FilterColorToggle : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void UpdateFilterColorMode()
+    {
+        SearchAgent.instance.filter.filterMode = toggle.isOn ? MyBinder.FilterMode.AND : MyBinder.FilterMode.OR;
+        SearchAgent.instance.isUpdated = true;
     }
 }
