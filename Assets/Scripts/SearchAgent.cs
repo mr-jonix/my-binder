@@ -59,6 +59,7 @@ public class SearchAgent : MonoBehaviour {
         var isGreen = new IsGreenSpecification();
         var isColorless = new IsColorlessSpecification();
         var isMulticolored = new IsMulticoloredSpecification();
+        var isMonocolored = new IsMonocoloredSpecification();
         var isCreature = new IsCreatureSpecification();
         var isArtifact = new IsArtifactSpecification();
         var isLand = new IsLandSpecification();
@@ -87,6 +88,7 @@ public class SearchAgent : MonoBehaviour {
                     if (filter.isGreen) resultingSpecification = resultingSpecification.And(isGreen);
                     if (filter.isColorless) resultingSpecification = resultingSpecification.And(isColorless);
                     if (filter.isMulticolored) resultingSpecification = resultingSpecification.And(isMulticolored);
+                    if (filter.isMonocolored) resultingSpecification = resultingSpecification.And(isMonocolored);
                     break;
                 }
             case MyBinder.FilterMode.OR:

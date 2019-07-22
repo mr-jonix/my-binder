@@ -45,18 +45,18 @@ public class ConfigAgent : MonoBehaviour {
             AutoSaveTimer = AutoSaveInterval * 3600;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            if (languageMode == LanguageMode.ENGLISH)
-            {
-                languageMode = LanguageMode.RUSSIAN;
-            }
-            else
-            {
-                languageMode = LanguageMode.ENGLISH;
-            }
-            SearchAgent.instance.isUpdated = true;
-        }
+        //if (Input.GetKeyUp(KeyCode.Space))
+        //{
+        //    if (languageMode == LanguageMode.ENGLISH)
+        //    {
+        //        languageMode = LanguageMode.RUSSIAN;
+        //    }
+        //    else
+        //    {
+        //        languageMode = LanguageMode.ENGLISH;
+        //    }
+        //    SearchAgent.instance.isUpdated = true;
+        //}
 
     }
 

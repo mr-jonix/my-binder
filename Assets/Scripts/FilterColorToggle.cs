@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public enum MTGColor
 {
-    WHITE,BLUE,BLACK,RED,GREEN,COLORLESS,GOLDEN
+    WHITE,BLUE,BLACK,RED,GREEN,COLORLESS,GOLDEN,MONO
 }
 
 public class FilterColorToggle : MonoBehaviour
@@ -44,6 +44,10 @@ public class FilterColorToggle : MonoBehaviour
                 break;
             case MTGColor.GOLDEN:
                 SearchAgent.instance.filter.isMulticolored = toggle.isOn;
+                SearchAgent.instance.isUpdated = true;
+                break;
+            case MTGColor.MONO:
+                SearchAgent.instance.filter.isMonocolored = toggle.isOn;
                 SearchAgent.instance.isUpdated = true;
                 break;
             default:

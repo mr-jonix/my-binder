@@ -126,4 +126,39 @@ public class CollectionAgent : MonoBehaviour {
             ConfigAgent.instance.DefaultCollection = path;
         }
     }
+
+    public void ExportCollection ()
+    {
+        string path = Application.persistentDataPath + "//export.csv";
+        if (true)
+        {
+            StreamWriter writer = new StreamWriter(path);
+            writer.WriteLine("Set;Number;Name;Rarity;Eng-Reg;Eng-Foil;Rus-Reg;Rus-Foil;Jap-Reg;Jap-Foil;Kor-Reg;Kor-Foil;Ita-Reg;Ita-Foil;Fra-Reg;Fra-Foil;Ger-Reg;Ger-Foil;Por-Reg;Por-Foil;Chn-Reg;Chn-Foil;Tai-Reg;Tai-Foil;Spa-Reg;Spa-Foil");
+            foreach (MTGSet set in DBAgent.instance.DB.sets)
+            {
+                foreach (MTGCard card in set.cards)
+                {
+                    var quantity = RetrieveQuantities(card,LanguageMode.ENGLISH);
+                    if (quantity.regularTotal + quantity.foilTotal > 0)
+                    {
+                        string csvEntry = card.setCode + ";" + card.number + ";" + card.name+";"+card.rarity;
+                        for (int lng = 0; lng < 11; lng++)
+                        {
+                            quantity = RetrieveQuantities(card, (LanguageMode)lng);
+                            csvEntry += ";" + quantity.regularCurrentLanguage;
+                            csvEntry += ";" + quantity.foilCurrentLanguage;
+                        }
+                        writer.WriteLine(csvEntry);
+                    }
+                }
+            }
+            writer.Flush();
+            writer.Close();
+            Debug.Log("Export successful");
+        }
+        else
+        {
+            Debug.Log("file not written");
+        }
+    }
 }

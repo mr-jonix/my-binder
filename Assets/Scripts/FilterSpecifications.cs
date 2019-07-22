@@ -63,6 +63,14 @@ namespace MyBinder
             return entity.colors.Count > 1;
         }
     }
+    public class IsMonocoloredSpecification : CompositeSpecification<MTGCard>
+    {
+        public override bool IsSatisfiedBy(MTGCard entity)
+        {
+            return entity.colors.Count == 1;
+        }
+    }
+    
 
     public class EnglishNameSpecification : CompositeSpecification<MTGCard>
     {

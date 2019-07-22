@@ -14,6 +14,7 @@ namespace MyBinder
         public bool isRed = false;
         public bool isGreen = false;
         public bool isMulticolored = false;
+        public bool isMonocolored = false;
         public bool isColorless = false;
         public bool isCreature = false;
         public bool isArtifact = false;
